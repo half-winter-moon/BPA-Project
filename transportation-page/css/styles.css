@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  margin: auto auto;
+  max-width: 400px;
+}
+
+.hero__img {
+  max-width: 400px;
+}
+
+.tip__img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,29 @@
 Agriculture Impact Plan:
 
 Methane (CH4) Footprint:
+"Domestic livestock such as cattle, swine, sheep, and goats produce CH4 as part of their normal digestive process."
+https://www.epa.gov/ghgemissions/overview-greenhouse-gases#methane
 
-Carbon Dioxide (CO2) Footprint:
+The way in which animal manure is stored will produce more or less greenhouse gasses.
+
+When these two are combined, agrictulture becomes the largest producer of CH4 in the United States.
 
 
-Land & Crop Management
-Livestock Management
+Nitrous Oxide (N2O) Emssions:
+Application of fertilizers
 Manure Management
+Burning of agrictultural residue
+
+Carbon Dioxide (CO2):
+Land Use, Land-Use Change, and Forestry:
+Since 1990 this Land-Use/Forestry has actually pulled more CO2 out of the air/atmosphere than it has emitted. This happens because 
+plants consume CO2 to survive. In areas where deforestation or land degradation occurs, there will be more CO2 in the air/atmosphere.
+https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#land-use-and-forestry
+
+
+
+-Land Management (Land Use/Forestry CO2)
+-Livestock and Manure Management (CH4, N2O)
 
 
 https://www.epa.gov/ghgemissions/overview-greenhouse-gases

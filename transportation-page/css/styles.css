@@ -9,13 +9,50 @@ body {
   max-width: 400px;
 }
 
+.hero {
+  color: white;
+}
 .hero__img {
-  max-width: 400px;
+  max-width: 375px;
+  position: relative;
+}
+.hero__heading {
+  padding: 5px;
+  font-size: 2em;
+  position: absolute;
+  left: 50px;
+  z-index: 1;
 }
 
+.tip {
+  padding: 15px;
+  margin: 20px;
+  margin-top: 20px;
+}
 .tip__img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 200px;
+  margin-left: -10px;
+  position: relative;
+}
+.tip__par {
+  background-color: #546854;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 90px;
+  z-index: 1;
+}
+.tip__par:nth-child(2) {
+  margin-top: 30px;
+}
+
+.publicTransport {
+  margin-top: -75px;
+}
+
+.bikes {
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

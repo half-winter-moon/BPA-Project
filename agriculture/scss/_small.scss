@@ -1,0 +1,33 @@
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  h1 {
+    text-align: center;
+    background-color: $green-1;
+    color: $tan-2;
+    padding: 10px 0;
+    margin-bottom: 0;
+  }
+  .livestock {
+    background-color: $green-4;
+  }
+  .land {
+    background-color: $green-2;
+    color: $tan-2;
+  }
+  h2 {
+    margin-top: 0;
+    padding: 30px 10px 0 10px;
+  }
+  p {
+    padding: 0 10px 30px 10px;
+    margin-bottom: 0;
+  }
+  img {
+    width: 100%;
+  }
+}

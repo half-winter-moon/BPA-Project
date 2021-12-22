@@ -1,0 +1,29 @@
+body {
+  max-width: 100%;
+  width: 100%;
+}
+
+main {
+  section {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .livestock {
+    img {
+      float: right;
+      width: 50%;
+    }
+  }
+  .land {
+    img {
+      float: left;
+      width: 50%;
+    }
+  }
+}
+
+.clear-fix::after {
+  clear: both;
+  content: '';
+  display: table;
+}

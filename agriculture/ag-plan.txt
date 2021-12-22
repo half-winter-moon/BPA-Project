@@ -28,3 +28,15 @@ https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#land-use-and-f
 
 https://www.epa.gov/ghgemissions/overview-greenhouse-gases
 https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions
+
+
+Section for agriculture and livestock management.
+Present the issue and then the solution.
+
+Section for land use, forestry, and fertilizers.
+Present the issues and then the solution.
+
+
+sources:
+livestock-img: https://unsplash.com/photos/0vVQWN_D26c
+forestry-img: https://unsplash.com/photos/5xmFg-EGhpw

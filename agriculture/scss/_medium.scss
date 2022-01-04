@@ -20,6 +20,23 @@ main {
       width: 50%;
     }
   }
+  #carousel {
+    display: block;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      li {
+        display: block;
+        margin: 10px;
+      }
+    }
+    #left {
+      display: none;
+    }
+    #right {
+      display: none;
+    }
+  }
 }
 
 .clear-fix::after {

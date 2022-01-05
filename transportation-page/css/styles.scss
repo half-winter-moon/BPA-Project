@@ -55,5 +55,35 @@ body {
 }
 
 @media screen and (min-width:375px){
-    
+    body {
+        max-width: 100%;
+        background-color: #c4bfa2;
+    }
+   
+    .hero {
+        //margin-top: -20px;
+        &__img {
+           display: none;
+        }
+        &__heading {
+            position: relative;
+            color: black;
+            max-width: 90%;
+            //margin-top: -20px;
+           // margin-bottom: 800px;
+        }
+    }
+    .tip {
+       // margin-top: 200px;
+        &__img {
+            width: 600px;
+        }
+        &__par {
+            width: 350px;
+        }
+    }
+}
+
+@media screen and (min-width:622px){
+
 }

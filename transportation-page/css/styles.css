@@ -55,4 +55,27 @@ body {
   margin-top: 100px;
 }
 
+@media screen and (min-width: 375px) {
+  body {
+    max-width: 100%;
+    background-color: #c4bfa2;
+  }
+
+  .hero__img {
+    display: none;
+  }
+  .hero__heading {
+    position: relative;
+    color: black;
+    max-width: 90%;
+  }
+
+  .tip__img {
+    width: 600px;
+  }
+  .tip__par {
+    width: 350px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

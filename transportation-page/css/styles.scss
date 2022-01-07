@@ -54,6 +54,31 @@ body {
 
 }
 
+footer {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 150px 100px 1fr;
+    a {
+        color: white;
+        font-weight: bold;
+    }
+    .info {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        margin-bottom: 20px;
+    }
+    .names {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .sources {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+}
+
 @media screen and (min-width:375px){
     body {
         max-width: 100%;

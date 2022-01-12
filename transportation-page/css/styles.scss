@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,12 @@ body {
     display: block;
     margin: auto auto;
     max-width: 400px;
+    h1, h2 {
+        font-family: 'Tenor Sans', sans-serif;
+    }
+    p {
+        font-family:  'Noto Serif', serif;
+    }
 }
 .hero {
     // background-image: url('../city smog green.jpg');
@@ -16,34 +23,41 @@ body {
         position: relative;
     }
     &__heading {
-        padding: 5px;
+        padding: 10px;
         // width: 100%;
         font-size: 2em;
         position: absolute;
         left: 50px;
         z-index: 1;
+        background-color: grey;
+        opacity: .7;
+        margin-top: 10px;
     }
 }
 .tip {
     padding: 15px;
     margin: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
+    // :not(.hero ~ .tip__heading) {
+    //     margin-top: 100px;
+    // }
     &__img {
-        max-width: 200px;
+        max-width: 300px;
         margin-left: -10px;
         position: relative;
     }
     &__par {
-        background-color: rgb(84, 104, 84);
+        background-color:#31572c;
         padding: 10px;
         color: white;
         position: absolute;
-        margin-top: -150px;
+        margin-top: -100px;
         margin-left: 90px;
+        // margin-bottom: 200px;
         z-index: 1;
     }
     &__par:nth-child(2) {
-        margin-top: 30px;
+        margin-top: 150px;
     }
 }
 .publicTransport {
@@ -60,6 +74,7 @@ footer {
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 150px 100px 1fr;
+    margin-top: 150px;
     a {
         color: white;
         font-weight: bold;
@@ -82,18 +97,27 @@ footer {
 @media screen and (min-width:375px){
     body {
         max-width: 100%;
-        background-color: #c4bfa2;
+        background-color: rgb(158, 142, 119);
+        h1 {
+            font-size: .5em;
     }
-   
+        h2 {
+            font-size: 1.5em;
+        }
+        p, a {
+            font-size: 1.15em;
+        }
+    }
     .hero {
         //margin-top: -20px;
         &__img {
-           display: none;
+        //    display: none;
+            max-width: 800px;
         }
         &__heading {
-            position: relative;
+            // position: relative;
             color: black;
-            max-width: 90%;
+            // max-width: 90%;
             //margin-top: -20px;
            // margin-bottom: 800px;
         }
@@ -101,14 +125,17 @@ footer {
     .tip {
        // margin-top: 200px;
         &__img {
-            width: 600px;
+            max-width: 600px;
         }
         &__par {
             width: 350px;
         }
     }
+    footer {
+        max-width: 100%;
+    }
 }
 
-@media screen and (min-width:622px){
+// @media screen and (min-width:622px){
 
-}
+// }

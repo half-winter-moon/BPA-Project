@@ -242,5 +242,16 @@ header {
     .ham {
         display: none;
     }
+    .nav-sub {
+        flex-direction: row;
+        transition: none;
+        position: static;
+        top:auto;
+        right:auto;
+        transform: none;
+        width: 100%;
+        border-radius: 0;
+        z-index: 60;
+    }
    
   } 

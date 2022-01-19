@@ -2,6 +2,15 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $header-font;
+  }
+  font-family: $body-font;
 }
 
 main {

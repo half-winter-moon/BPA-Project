@@ -17,7 +17,7 @@ main {
   h1 {
     text-align: center;
     background-color: $green-1;
-    color: $tan-2;
+    color: $tan;
     padding: 10px 0;
     margin-bottom: 0;
   }
@@ -29,7 +29,7 @@ main {
   }
   .land {
     background-color: $green-2;
-    color: $tan-2;
+    color: $tan;
   }
   h2 {
     margin-top: 0;
@@ -43,7 +43,7 @@ main {
     width: 100%;
   }
   .actions {
-    background-color: $tan-2;
+    background-color: $tan;
     #carousel {
       position: relative;
       text-align: center;

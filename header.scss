@@ -100,16 +100,17 @@ header {
             width: 35%;
         }
         .navbar {
-            background-color: whitesmoke;
+           
             position: relative;
             width: 100%;
-            font-size: 1.5rem;
+            font-size: 125%;
             letter-spacing: 2px;
             padding: none;
             .ham {
                 display: none;
             }
             .nav-sub {
+                background-color: whitesmoke;
                 flex-direction: row;
                 transition: none;
                 position: static;

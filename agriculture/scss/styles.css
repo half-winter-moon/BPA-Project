@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Noto+Serif&display=swap");
@@ -262,7 +261,7 @@ body h6 {
 main h1 {
   text-align: center;
   background-color: #132a13;
-  color: #ecf39e;
+  color: #f3ebe1;
   padding: 10px 0;
   margin-bottom: 0;
 }
@@ -277,7 +276,7 @@ main .livestock {
 
 main .land {
   background-color: #31572c;
-  color: #ecf39e;
+  color: #f3ebe1;
 }
 
 main h2 {
@@ -295,7 +294,7 @@ main img {
 }
 
 main .actions {
-  background-color: #ecf39e;
+  background-color: #f3ebe1;
 }
 
 main .actions #carousel {

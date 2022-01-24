@@ -5,28 +5,30 @@
 }
 
 body {
+  background-color: whitesmoke;
+}
+body h1, body h2 {
+  font-family: "Tenor Sans", sans-serif;
+  color: #31572C;
+}
+body p {
+  font-family: "Noto Serif", serif;
+}
+
+main {
   display: block;
   margin: auto auto;
   max-width: 400px;
 }
 
-body h1, body h2 {
-  font-family: 'Tenor Sans', sans-serif;
-}
-
-body p {
-  font-family: 'Noto Serif', serif;
-}
-
 .hero {
   color: white;
+  margin-bottom: 100px;
 }
-
 .hero__img {
-  max-width: 375px;
+  height: auto;
   position: relative;
 }
-
 .hero__heading {
   padding: 10px;
   font-size: 2em;
@@ -34,95 +36,62 @@ body p {
   left: 50px;
   z-index: 1;
   background-color: grey;
-  opacity: .7;
+  opacity: 0.7;
   margin-top: 10px;
 }
 
 .tip {
-  padding: 15px;
-  margin: 20px;
-  margin-top: 50px;
+  padding: 20px;
+  background-color: #F3EBE1;
+  margin-bottom: 20px;
 }
-
 .tip__img {
   max-width: 300px;
-  margin-left: -10px;
-  position: relative;
+  margin: 0 auto;
 }
-
 .tip__par {
-  background-color: #31572c;
   padding: 10px;
-  color: white;
-  position: absolute;
-  margin-top: -100px;
-  margin-left: 90px;
-  z-index: 1;
-}
-
-.tip__par:nth-child(2) {
-  margin-top: 150px;
-}
-
-.publicTransport {
-  margin-top: -75px;
-}
-
-.bikes {
-  margin-top: 100px;
+  color: black;
 }
 
 footer {
   background-color: grey;
   color: white;
   padding: 10px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 150px 100px 1fr;
-      grid-template-columns: 1fr 150px 100px 1fr;
-  margin-top: 150px;
+  grid-template-columns: 1fr 150px 100px 1fr;
+  margin-top: 50px;
 }
-
 footer a {
   color: white;
   font-weight: bold;
 }
-
 footer .info {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
   grid-column: 2/4;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
   margin-bottom: 20px;
 }
-
 footer .names {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
   grid-column: 2/3;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
   grid-row: 2/3;
 }
-
 footer .sources {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
   grid-column: 3/4;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
   grid-row: 2/3;
+}
+footer .whoDunnit {
+  max-width: 300px;
+  background-color: #31572C;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 375px) {
   body {
-    max-width: 100%;
-    background-color: #9e8e77;
+    width: 100%;
   }
   body h1 {
-    font-size: .5em;
+    font-size: 0.5em;
   }
   body h2 {
     font-size: 1.5em;
@@ -130,20 +99,39 @@ footer .sources {
   body p, body a {
     font-size: 1.15em;
   }
+
+  main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
   .hero__img {
-    max-width: 800px;
-  }
-  .hero__heading {
-    color: black;
-  }
-  .tip__img {
+    display: block;
     max-width: 600px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .tip__img {
+    max-width: 500px;
   }
   .tip__par {
-    width: 350px;
+    max-width: 300px;
   }
+  .tip .plane, .tip .bikes {
+    float: right;
+    margin-top: 5px;
+  }
+  .tip .bus {
+    float: right;
+  }
+  .tip .publicTransport {
+    margin-top: 5px;
+  }
+
   footer {
     max-width: 100%;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */

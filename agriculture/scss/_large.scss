@@ -1,0 +1,22 @@
+main .actions {
+  #carousel {
+    display: block;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: $tan;
+      li {
+        background-color: #eaeaea;
+        height: 150px;
+        display: block;
+        margin: 10px;
+      }
+    }
+    #left {
+      display: none;
+    }
+    #right {
+      display: none;
+    }
+  }
+}

@@ -5,7 +5,7 @@ body {
 
 main {
   section {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
   }
   .livestock {
@@ -22,21 +22,38 @@ main {
       padding-right: 10px;
     }
   }
-  #carousel {
-    display: block;
-    ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      li {
-        display: block;
-        margin: 10px;
+  .actions {
+    #carousel {
+      display: block;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        background-color: $tan;
+        li {
+          height: 170px;
+          display: block;
+          margin: 10px;
+          background-color: #eaeaea;
+        }
+        li:nth-of-type(1) {
+          grid-column: 4/10;
+          grid-row: 1;
+        }
+        li:nth-of-type(2) {
+          grid-column: 1/7;
+          grid-row: 2;
+        }
+        li:nth-of-type(3) {
+          grid-column: 7/13;
+          grid-row: 2;
+        }
       }
-    }
-    #left {
-      display: none;
-    }
-    #right {
-      display: none;
+      #left {
+        display: none;
+      }
+      #right {
+        display: none;
+      }
     }
   }
 }

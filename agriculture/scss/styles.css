@@ -258,6 +258,12 @@ body h6 {
   font-family: "Tenor Sans", sans-serif;
 }
 
+main img {
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 4px #000000, -4px -4px 4px #000000;
+          box-shadow: 4px 4px 4px #000000, -4px -4px 4px #000000;
+}
+
 main h1 {
   text-align: center;
   background-color: #132a13;
@@ -298,6 +304,7 @@ main .actions {
 }
 
 main .actions #carousel {
+  width: 100%;
   position: relative;
   text-align: center;
 }
@@ -305,33 +312,40 @@ main .actions #carousel {
 main .actions #carousel ul {
   padding: 20px;
   margin: 20px 0;
-  background-color: #4f772d;
+  background-color: #eaeaea;
 }
 
 main .actions #carousel ul li {
-  background-color: #eaeaea;
+  height: 150px;
   padding: 20px 25px;
 }
 
 main .actions #carousel #left {
+  border-radius: 50%;
   position: absolute;
-  bottom: -1px;
-  left: 30%;
+  bottom: 50%;
+  left: 0;
+}
+
+main .actions #carousel #left:hover,
+main .actions #carousel #right:hover {
+  background-color: darkgray;
 }
 
 main .actions #carousel #right {
+  border-radius: 50%;
   position: absolute;
-  bottom: -1px;
-  right: 30%;
+  bottom: 50%;
+  right: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     max-width: 100%;
     width: 100%;
   }
   main section {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
   }
   main .livestock img {
@@ -344,29 +358,78 @@ main .actions #carousel #right {
     width: 50%;
     padding-right: 10px;
   }
-  main #carousel {
+  main .actions #carousel {
     display: block;
   }
-  main #carousel ul {
+  main .actions #carousel ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[12];
+        grid-template-columns: repeat(12, 1fr);
+    background-color: #f3ebe1;
   }
-  main #carousel ul li {
+  main .actions #carousel ul li {
+    height: 170px;
     display: block;
     margin: 10px;
+    background-color: #eaeaea;
   }
-  main #carousel #left {
+  main .actions #carousel ul li:nth-of-type(1) {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 6;
+    grid-column: 4/10;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  main .actions #carousel ul li:nth-of-type(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-column: 1/7;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  main .actions #carousel ul li:nth-of-type(3) {
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 6;
+    grid-column: 7/13;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  main .actions #carousel #left {
     display: none;
   }
-  main #carousel #right {
+  main .actions #carousel #right {
     display: none;
   }
   .clear-fix::after {
     clear: both;
     content: '';
     display: table;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .actions #carousel {
+    display: block;
+  }
+  main .actions #carousel ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    background-color: #f3ebe1;
+  }
+  main .actions #carousel ul li {
+    background-color: #eaeaea;
+    height: 150px;
+    display: block;
+    margin: 10px;
+  }
+  main .actions #carousel #left {
+    display: none;
+  }
+  main .actions #carousel #right {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */

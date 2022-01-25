@@ -14,6 +14,10 @@ body {
 }
 
 main {
+  img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #000000, -4px -4px 4px #000000;
+  }
   h1 {
     text-align: center;
     background-color: $green-1;
@@ -45,26 +49,34 @@ main {
   .actions {
     background-color: $tan;
     #carousel {
+      width: 100%;
       position: relative;
       text-align: center;
       ul {
         padding: 20px;
         margin: 20px 0;
-        background-color: $green-3;
+        background-color: #eaeaea;
+
         li {
-          background-color: #eaeaea;
+          height: 150px;
           padding: 20px 25px;
         }
       }
       #left {
+        border-radius: 50%;
         position: absolute;
-        bottom: -1px;
-        left: 30%;
+        bottom: 50%;
+        left: 0;
+      }
+      #left:hover,
+      #right:hover {
+        background-color: darkgray;
       }
       #right {
+        border-radius: 50%;
         position: absolute;
-        bottom: -1px;
-        right: 30%;
+        bottom: 50%;
+        right: 0;
       }
     }
   }

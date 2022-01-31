@@ -11,6 +11,7 @@ $tan: #F3EBE1;
 body {
     background-color: $background;
     font-family: 'Noto Serif', serif;
+   
   } 
 h1, h2, h3, h4 {
     font-family: 'Tenor Sans', sans-serif;
@@ -20,7 +21,6 @@ main {
     display: flex;
     flex-direction: column;
     height: auto;
-
 }
 .hero {
     img {
@@ -29,13 +29,18 @@ main {
         width: 100%;
         margin: 0 auto;
     }
+    #background-video {
+        display:none;
+    }
     .info {
-        position: absolute;
-        top: 75px;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 100px 10px 150px 100px;
+        position:absolute;
+        top: 25%; 
+        right:0;
+        left:0;
+        display: flex;
+        flex-direction: column;
         margin: 20px;
+        padding: 20px;
         background: rgba(0, 0, 0, 0.5); 
         border-radius: 7px;
         
@@ -210,6 +215,40 @@ main {
   }
     
 @media only screen and (min-width:768px){    
- 
+   main {
+    max-width: 80%;
+    margin: 0 auto;
+   }
+    .hero {
+        #background-video {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+      }
+      img {
+          display:none;
+      }
+      .info {
+        position: relative;
+        top: 0px;
+        left: 25%;
+        width: 50%;
+        background: rgba(0, 0, 0, 0.7); 
+      }
+    }
+    .carbon {
+        margin-top: 20px;
+        img {
+            width: 25%;
+            float: left;
+            margin: 5px;
+        }
+    }
+    }
    
-  } 

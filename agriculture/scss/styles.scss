@@ -2,6 +2,9 @@
 @import 'variables';
 @import 'small';
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   @import 'medium';
+}
+@media screen and (min-width: 1024px) {
+  @import 'large';
 }

@@ -1,0 +1,254 @@
+/*---------------COLORS--------------------------*/
+$darkest: #132A13;
+$hunter: #31572C;
+$sap: #4F772D;
+$olivine: #90A955;
+$background: #F5F5F5;
+$tan: #F3EBE1;
+/*----------Font Imports---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap');
+/* --------------MOBILE VIEW-------------------- */
+body {
+    background-color: $background;
+    font-family: 'Noto Serif', serif;
+   
+  } 
+h1, h2, h3, h4 {
+    font-family: 'Tenor Sans', sans-serif;
+    
+} 
+main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.hero {
+    img {
+        position: relative;
+        height: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #background-video {
+        display:none;
+    }
+    .info {
+        position:absolute;
+        top: 25%; 
+        right:0;
+        left:0;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 7px;
+        
+        h1 {
+            color: white;
+            padding: 10px;
+            text-align:center;
+            margin: 0;
+        }
+        hr {
+            height: 1px;
+            width: 50%;
+            margin: 0 auto;
+            background-color: white;
+        }
+        p  {
+            color: white;
+            padding: 15px;
+            text-align: justify;
+            font-size: 1.3rem; 
+            margin: 0; 
+            overflow-y: hidden;
+            height: auto;
+    }
+        a {
+        text-decoration: none;
+        background-color: $olivine;
+        color: black;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+        border: 3px solid black;
+        margin: auto;
+        border-radius: 7px;
+     }
+    }
+}
+  .carbon {
+      margin-top: 0;
+      background-color: $tan;
+      h2 {
+          max-height: 100%;
+          margin: 0;
+          color:$hunter;
+          font-size: 1.5rem;
+          text-align: center;
+          padding-top: 10px;
+      }
+      img {
+          width: 100%;
+      }
+      hr {
+          margin: 0 auto;
+          width: 50%;
+          height: 1px;
+          background-color: black;
+      }
+      p {
+          padding: 10px;
+
+          letter-spacing: 2px;
+      }
+  }
+  #help {
+      color: $hunter;
+      text-align: center;
+      padding: 10px;
+      letter-spacing: 2px;
+  }
+  .item1 {
+    background-color: $darkest;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    h3 { 
+      color: $tan;
+      padding: 10px;
+      text-align:center;
+      margin: 20px;
+      margin-bottom: 0;
+      letter-spacing: 2px;
+  }
+    p  {
+      background-color: $darkest;
+      color: $tan;
+      padding: 15px;
+      text-align: justify;
+      margin-top: 0; 
+      margin-bottom: 0;  
+      margin-left: 20px;
+      margin-right: 20px; 
+  }
+  a {
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+       border-radius: 7px; 
+      background-color: $olivine;
+      margin: 20px auto 20px auto;
+      width: 40%;
+      }
+
+  }
+  .item2 {
+    background-color: $tan;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    h3 { 
+      background-color: $tan;
+      color: $darkest;
+      padding: 10px;
+      text-align:center;
+      margin: 20px;
+      margin-bottom: 0;
+      letter-spacing: 2px;
+  }
+    p  {
+      background-color: $tan;
+      color: $darkest;
+      padding: 15px;
+      text-align: justify;
+      margin-top: 0; 
+      margin-bottom: 0;  
+      margin-left: 20px;
+      margin-right: 20px; 
+  }
+  a {
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+      border-radius: 7px; 
+      background-color: $olivine;
+      width: 40%;
+      margin: 20px auto 20px auto;
+      }
+
+  }
+  .item3 {
+    background-color: $darkest;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    h3 { 
+      color: $tan;
+      padding: 10px;
+      text-align:center;
+      margin: 20px;
+      margin-bottom: 0;
+      letter-spacing: 2px;
+  }
+    p  {
+      background-color: $darkest;
+      color: $tan;
+      padding: 15px;
+      text-align: justify;
+      margin-top: 0; 
+      margin-bottom: 0;  
+      margin-left: 20px;
+      margin-right: 20px; 
+  }
+  a {
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+       border-radius: 7px; 
+      background-color: $olivine;
+      margin: 20px auto 20px auto;
+      width: 40%;
+      }
+
+  }
+    
+@media only screen and (min-width:768px){    
+   main {
+    max-width: 80%;
+    margin: 0 auto;
+   }
+    .hero {
+        #background-video {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+      }
+      img {
+          display:none;
+      }
+      .info {
+        position: relative;
+        top: 0px;
+        left: 25%;
+        width: 50%;
+        background: rgba(0, 0, 0, 0.7); 
+      }
+    }
+    .carbon {
+        margin-top: 20px;
+        img {
+            width: 25%;
+            float: left;
+            margin: 5px;
+        }
+    }
+    }
+   

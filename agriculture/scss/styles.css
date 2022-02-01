@@ -243,7 +243,6 @@ input[type='checkbox'], input[type='radio'] {
 }
 
 body {
-  max-width: 960px;
   width: 100%;
   margin: 0 auto;
   font-family: "Noto Serif", serif;
@@ -256,6 +255,11 @@ body h4,
 body h5,
 body h6 {
   font-family: "Tenor Sans", sans-serif;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 main img {
@@ -339,14 +343,55 @@ main .actions #carousel #right {
   right: 0;
 }
 
+main #hero {
+  padding: 20px 0px;
+}
+
+main #hero img {
+  width: 100%;
+  position: relative;
+}
+
+main #hero .info {
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  right: 15%;
+  left: 15%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+main #hero .info .cta-button {
+  text-decoration: none;
+  background-color: #90a955;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  border: 3px solid black;
+  margin: auto;
+  border-radius: 7px;
+}
+
+main #hero .info h2 {
+  padding-top: 0px;
+  margin-top: 10px;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     max-width: 100%;
     width: 100%;
   }
-  main section {
+  main {
     max-width: 80%;
     margin: 0 auto;
+  }
+  main #hero .info {
+    top: 40%;
+    bottom: 30%;
   }
   main .livestock img {
     float: right;
@@ -409,6 +454,14 @@ main .actions #carousel #right {
 }
 
 @media screen and (min-width: 1024px) {
+  main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  main #hero .info {
+    top: 60%;
+    bottom: 20%;
+  }
   main .actions #carousel {
     display: block;
   }

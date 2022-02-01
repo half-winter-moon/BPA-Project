@@ -34,7 +34,7 @@ main {
     }
     .info {
         position:absolute;
-        top: 25%; 
+        top: 15%; 
         right:0;
         left:0;
         display: flex;
@@ -138,9 +138,13 @@ main {
       text-align: center;
       padding: 10px;
        border-radius: 7px; 
-      background-color: $olivine;
+      background-color: whitesmoke;
       margin: 20px auto 20px auto;
       width: 40%;
+      color: black
+      }
+      a:visited {
+        color: black;
       }
 
   }
@@ -173,8 +177,9 @@ main {
       text-align: center;
       padding: 10px;
       border-radius: 7px; 
-      background-color: $olivine;
+      background-color: $hunter;
       width: 40%;
+      color: white;
       margin: 20px auto 20px auto;
       }
 
@@ -207,9 +212,10 @@ main {
       text-align: center;
       padding: 10px;
        border-radius: 7px; 
-      background-color: $olivine;
+      background-color: whitesmoke;
       margin: 20px auto 20px auto;
       width: 40%;
+      color: black;
       }
 
   }
@@ -222,7 +228,7 @@ main {
     .hero {
         #background-video {
             display: block;
-            width: 100%;
+            width: 80%;
             margin: 0 auto;
             object-fit: cover;
             position: absolute;
@@ -243,12 +249,20 @@ main {
       }
     }
     .carbon {
-        margin-top: 20px;
+        margin-top: 15%;
         img {
             width: 25%;
             float: left;
-            margin: 5px;
+            margin: 10px;
+            
         }
+    }
+    .help-links {
+        display: flex;
+        flex-direction: row;
+    }
+    .item1 {
+        background-image: url('./images/toilet.mp4');
     }
     }
    

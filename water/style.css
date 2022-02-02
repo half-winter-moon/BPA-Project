@@ -21,15 +21,6 @@ h1{
     font-size: 45px;
 }
 
-header {
-    width: 100%;
-    height: 40px;
-    padding:40px;
-    text-align: center;
-    background: #31572C;
-    color: white;
-  }
-
 .logo-box{
     padding-left: 20px;
     padding-top: 25px;
@@ -41,9 +32,6 @@ header {
     text-align: center;
     color: white;
   }
-
-
-
   .title{
     position: absolute;
     top: 50%;
@@ -66,9 +54,6 @@ main{
     padding-bottom:80px;
     
     padding-left: 40px;
-    
- 
-    
 }
 
 .heading-one{

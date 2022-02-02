@@ -20,6 +20,7 @@ header {
     background-color: $background;
     display: flex;
     flex-direction: row;
+    width: 100%;
     img {
         width: 50%;
         margin: 0 auto;
@@ -95,21 +96,22 @@ header {
         flex-direction: row;
         position: sticky;
         top: 0;
+        width: 100%;
         img {
             margin-left: 20px;
             width: 35%;
         }
         .navbar {
-            background-color: whitesmoke;
             position: relative;
             width: 100%;
-            font-size: 1.5rem;
+            font-size: 125%;
             letter-spacing: 2px;
             padding: none;
             .ham {
                 display: none;
             }
             .nav-sub {
+                background-color: whitesmoke;
                 flex-direction: row;
                 transition: none;
                 position: static;

@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Discover the effect farms and local acgricultural have on a communities Carbon Footprint"
-    />
-    <link rel="stylesheet" href="../agriculture/scss/styles.css" />
-    <script src="../agriculture/js/ag.js" defer></script>
-    <link rel="stylesheet" href="../header.css" />
-    <script src="../home.js" defer></script>
-    <title>Agricultural Impact | Green Spaces</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Discover the effect farms and local acgricultural have on a communities Carbon Footprint" />
+  <link rel="stylesheet" href="../agriculture/scss/styles.css" />
+  <script src="../agriculture/js/ag.js" defer></script>
+  <link rel="stylesheet" href="../header.css" />
+  <link rel="icon" type="image/x-icon" href="../images/small_logo.png">
+  <script src="../home.js" defer></script>
+  <title>Agricultural Impact | Green Spaces</title>
+</head>
+
+<body>
   <header id="page-header">
     <img src="../images/final_logo.png" alt="logo" loading="lazy" />
     <nav class="navbar">
@@ -33,101 +35,94 @@
           <a href="../water/water.html" class="nav-link">Water</a>
         </li>
         <li class="list-item">
-          <a href="../transportation-page/index.html" class="nav-link"
-            >Transportation</a
-          >
+          <a href="../transportation-page/index.html" class="nav-link">Transportation</a>
         </li>
       </ul>
     </nav>
   </header>
-  <body>
-    <main>
-      <h1>Agricultural Impact</h1>
-      <section class="livestock clear-fix">
-        <picture>
-          <source
-            media="(max-width: 640px)"
-            srcset="../agriculture/images/livestock-img-small.jpg"
-          />
-          <source
-            media="(min-width: 641px) and (max-width:1920px)"
-            srcset="../agriculture/images/livestock-img-medium.jpg"
-          />
-          <source
-            media="(min-width: 1921px) and (max-width:2400px)"
-            srcset="../agriculture/images/livestock-img-large.jpg"
-          />
-          <img
-            src="../agriculture/images/livestock-img-medium.jpg"
-            alt="Cattle eating grass on a field in the mountains of Zallinger, Italy."
-          />
-        </picture>
-        <h2>Agriculture and Livestock Management</h2>
-        <p>
-          Manure is one of the culprits for Carbon emmissions in the
-          Agriculture/Livestock industry. To reduce the amount of Carbon, we
-          must change the way manure is stored.<br /><br />
-          Does your stomach often feel weird when you eat certain foods?
-          Interestingly enough, the foods given to livestock can have an effect
-          on how much Carbon (in the form of Methane) they produce. If we focus
-          on giving livestock food that causes them to produce less Methane,
-          then we can decrease the Carbon footprint of this industry.
-        </p>
-      </section>
-      <section class="land clear-fix">
-        <picture>
-          <source
-            media="(max-width: 640px)"
-            srcset="../agriculture/images/forestry-img-small.jpg"
-          />
-          <source
-            media="(min-width: 641px) and (max-width:1920px)"
-            srcset="../agriculture/images/forestry-img-medium.jpg"
-          />
-          <source
-            media="(min-width: 1921px) and (max-width:2400px)"
-            srcset="../agriculture/images/forestry-img-large.jpg"
-          />
-          <img
-            src="../agriculture/images/forestry-img-medium.jpg"
-            alt="Cattle eating grass on a field in the mountains of Zallinger, Italy."
-          />
-        </picture>
-        <h2>Land Management</h2>
-        <p>
-          The way in which land is managed and maintained can have a significant
-          impact on how much Carbon is emmitted and how much Carbon is removed
-          from the air. Since 1990 The EPA records that Land-Use/Forestry
-          efforts have removed more Carbon from the air than they have emmitted.
-          What can be done to keep this going and increase the removal of
-          Carbon? We need to continue to maintain and reforest land and
-          deforested areas.
-        </p>
-      </section>
-      <section class="actions">
-        <h2>Specific Steps</h2>
-        <p>What are some of the specific steps we can take?</p>
-        <div id="carousel">
-          <ul id="actions-list">
-            <li>
-              <p>
-                Continue to support and further Land Management organizations
-              </p>
-            </li>
-            <li>
-              <p>
-                Become informed on how manure should properly be stored and
-                disposed of. Help the local government or agriculture
-                organizations implement those ideas.
-              </p>
-            </li>
-            <li>Action 3</li>
-          </ul>
-          <span class="material-icons" id="left"> chevron_left </span>
-          <span class="material-icons" id="right"> chevron_right </span>
-        </div>
-      </section>
-    </main>
-  </body>
-  <footer></footer>
+  <main>
+    <h1>Agricultural Impact</h1>
+    <section id="hero">
+      <picture>
+        <source media="(max-width: 640px)" srcset="../agriculture/images/hero-img-small.jpg" />
+        <source media="(min-width: 641px) and (max-width: 1920px)" srcset="../agriculture/images/hero-img-medium.jpg" />
+        <source media="(min-width:1921px) and (max-width: 2400px)" srcset="../agriculture/images/hero-img-large.jpg" />
+        <img src="../agriculture/images/hero-img-medium.jpg"
+          alt="Sunset over a farmers field in Fribourg, Switzerland" />
+      </picture>
+      <div class="info">
+        <h2>Reduce CO2 Emissions</h2>
+        <a href="#action-steps" class="cta-button">Take Action Today</a>
+      </div>
+    </section>
+    <section class="livestock clear-fix">
+      <picture>
+        <source media="(max-width: 640px)" srcset="../agriculture/images/livestock-img-small.jpg" />
+        <source media="(min-width: 641px) and (max-width:1920px)"
+          srcset="../agriculture/images/livestock-img-medium.jpg" />
+        <source media="(min-width: 1921px) and (max-width:2400px)"
+          srcset="../agriculture/images/livestock-img-large.jpg" />
+        <img src="../agriculture/images/livestock-img-medium.jpg"
+          alt="Cattle eating grass on a field in the mountains of Zallinger, Italy." />
+      </picture>
+      <h2>Agriculture and Livestock Management</h2>
+      <p>
+        Manure is one of the culprits for Carbon emmissions in the
+        Agriculture/Livestock industry. To reduce the amount of Carbon, we
+        must change the way manure is stored.<br /><br />
+        Does your stomach often feel weird when you eat certain foods?
+        Interestingly enough, the foods given to livestock can have an effect
+        on how much Carbon (in the form of Methane) they produce. If we focus
+        on giving livestock food that causes them to produce less Methane,
+        then we can decrease the Carbon footprint of this industry.
+      </p>
+    </section>
+    <section class="land clear-fix">
+      <picture>
+        <source media="(max-width: 640px)" srcset="../agriculture/images/forestry-img-small.jpg" />
+        <source media="(min-width: 641px) and (max-width:1920px)"
+          srcset="../agriculture/images/forestry-img-medium.jpg" />
+        <source media="(min-width: 1921px) and (max-width:2400px)"
+          srcset="../agriculture/images/forestry-img-large.jpg" />
+        <img src="../agriculture/images/forestry-img-medium.jpg"
+          alt="Cattle eating grass on a field in the mountains of Zallinger, Italy." />
+      </picture>
+      <h2>Land Management</h2>
+      <p>
+        The way in which land is managed and maintained can have a significant
+        impact on how much Carbon is emmitted and how much Carbon is removed
+        from the air. Since 1990 The EPA records that Land-Use/Forestry
+        efforts have removed more Carbon from the air than they have emmitted.
+        What can be done to keep this going and increase the removal of
+        Carbon? We need to continue to maintain and reforest land and
+        deforested areas.
+      </p>
+    </section>
+    <section id="action-steps" class="actions">
+      <h2>Specific Steps</h2>
+      <p>What are some of the specific steps we can take?</p>
+      <div id="carousel">
+        <ul id="actions-list">
+          <li>
+            <p>
+              Continue to support and further Land Management organizations
+            </p>
+          </li>
+          <li>
+            <p>
+              Become informed on how manure should properly be stored and
+              disposed of. Help the local government or agriculture
+              organizations implement those ideas.
+            </p>
+          </li>
+          <li>Action 3</li>
+        </ul>
+        <span class="material-icons" id="left"> chevron_left </span>
+        <span class="material-icons" id="right"> chevron_right </span>
+      </div>
+    </section>
+  </main>
+</body>
+<footer></footer>
+
 </html>

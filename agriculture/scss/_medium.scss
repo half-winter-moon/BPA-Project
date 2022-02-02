@@ -4,9 +4,16 @@ body {
 }
 
 main {
+  max-width: 80%;
+  margin: 0 auto;
+
   section {
-    max-width: 80%;
-    margin: 0 auto;
+  }
+  #hero {
+    .info {
+      top: 40%;
+      bottom: 30%;
+    }
   }
   .livestock {
     img {

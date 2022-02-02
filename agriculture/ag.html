@@ -15,35 +15,59 @@
     <script src="../home.js" defer></script>
     <title>Agricultural Impact | Green Spaces</title>
   </head>
-  <header id="page-header">
-    <img src="../images/final_logo.png" alt="logo" loading="lazy" />
-    <nav class="navbar">
-      <div class="ham">
-        <span class="bar1"></span>
-        <span class="bar2"></span>
-        <span class="bar3"></span>
-      </div>
-      <ul class="nav-sub">
-        <li class="list-item">
-          <a href="../index.html" class="nav-link">Home</a>
-        </li>
-        <li class="list-item">
-          <a href="/agriculture/ag.html" class="nav-link">Agriculture</a>
-        </li>
-        <li class="list-item">
-          <a href="../water/water.html" class="nav-link">Water</a>
-        </li>
-        <li class="list-item">
-          <a href="../transportation-page/index.html" class="nav-link"
-            >Transportation</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </header>
   <body>
+    <header id="page-header">
+      <img src="../images/final_logo.png" alt="logo" loading="lazy" />
+      <nav class="navbar">
+        <div class="ham">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </div>
+        <ul class="nav-sub">
+          <li class="list-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="/agriculture/ag.html" class="nav-link">Agriculture</a>
+          </li>
+          <li class="list-item">
+            <a href="../water/water.html" class="nav-link">Water</a>
+          </li>
+          <li class="list-item">
+            <a href="../transportation-page/index.html" class="nav-link"
+              >Transportation</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <h1>Agricultural Impact</h1>
+      <section id="hero">
+        <picture>
+          <source
+            media="(max-width: 640px)"
+            srcset="../agriculture/images/hero-img-small.jpg"
+          />
+          <source
+            media="(min-width: 641px) and (max-width: 1920px)"
+            srcset="../agriculture/images/hero-img-medium.jpg"
+          />
+          <source
+            media="(min-width:1921px) and (max-width: 2400px)"
+            srcset="../agriculture/images/hero-img-large.jpg"
+          />
+          <img
+            src="../agriculture/images/hero-img-medium.jpg"
+            alt="Sunset over a farmers field in Fribourg, Switzerland"
+          />
+        </picture>
+        <div class="info">
+          <h2>Reduce CO2 Emissions</h2>
+          <a href="#action-steps" class="cta-button">Take Action Today</a>
+        </div>
+      </section>
       <section class="livestock clear-fix">
         <picture>
           <source
@@ -105,7 +129,7 @@
           deforested areas.
         </p>
       </section>
-      <section class="actions">
+      <section id="action-steps" class="actions">
         <h2>Specific Steps</h2>
         <p>What are some of the specific steps we can take?</p>
         <div id="carousel">

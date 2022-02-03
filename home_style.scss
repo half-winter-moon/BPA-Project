@@ -268,18 +268,8 @@ main {
     }
 
     .hero {
-        #background-video {
-            display: block;
-            width: 80%;
-            margin: 0 auto;
-            object-fit: cover;
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: -1;
-        }
-
+        background-image: url('/images/forest.jpg');
+        background-size: contain;
         img {
             display: none;
         }
@@ -294,8 +284,6 @@ main {
     }
 
     .carbon {
-        margin-top: 15%;
-
         img {
             width: 25%;
             float: left;

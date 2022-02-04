@@ -74,6 +74,8 @@ main {
   max-width: 300px;
   display: block;
   margin: 0 auto;
+  border-radius: 35px;
+  box-shadow: 5px 5px 5px black;
 }
 .tip__par {
   padding: 10px;
@@ -163,6 +165,7 @@ main {
   }
   .tip .bus {
     float: right;
+    margin-top: 20px;
   }
   .tip .publicTransport {
     margin-top: 100px;

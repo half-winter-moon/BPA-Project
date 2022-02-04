@@ -72,6 +72,8 @@ main {
         max-width: 300px;
         display: block;
         margin: 0 auto;
+        border-radius: 35px;
+        box-shadow: 5px 5px 5px black;
     }
     &__par {
         padding: 10px;
@@ -169,6 +171,7 @@ main {
          }
          .bus {
              float:right;
+             margin-top: 20px;
          }
          .publicTransport {
              margin-top: 100px;

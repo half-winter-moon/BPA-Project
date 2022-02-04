@@ -1,86 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="../home.js" defer></script>
+    <title>Water | GreenSpaces</title>
     <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../footer.css">
-    <link rel="icon" type="image/x-icon" href="../images/small_logo.png">
-    <title>Water Consumption | GreenSpaces</title>
-</head>
 
+    <link rel="icon" type="image/x-icon" href="../images/small_logo.png">
+
+    <script src ="../home.js" defer></script>
+
+</head>
 <body>
+
+
+
+<!--Header, logo, and navigation stuff-->
     <div class="content">
         <header id="page-header">
-            <img src="../images/final_logo.png" alt="logo" loading="lazy">
-            <nav class="navbar">
-                <div class="ham">
-                    <span class="bar1"></span>
-                    <span class="bar2"></span>
-                    <span class="bar3"></span>
-                </div>
-                <ul class="nav-sub">
-                    <li class="list-item"><a href="../index.html" class="nav-link">Home</a></li>
-                    <li class="list-item"><a href="../agriculture/ag.html" class="nav-link">Agriculture</a></li>
-                    <li class="list-item"><a href="water.html" class="nav-link active">Water</a></li>
-                    <li class="list-item"><a href="../transportation-page/index.html"
-                            class="nav-link">Transportation</a></li>
-                </ul>
-            </nav>
+            <img src = "../images/logo3.png" alt="logo" loading= "lazy">     
         </header>
         <main>
-            <h1 class="title-of-page">Using water responsibly</h1>
+            <nav class="navbar">  
+                <div class="ham" >  
+                <span class="bar1"></span>  
+                <span class="bar2"></span>  
+                <span class="bar3"></span>  
+                </div>  
+                <ul class="nav-sub">  
+                 <li class="list-item"><a href="../index.html" class="nav-link">Home</a></li>  
+                 <li class="list-item"><a href="../agriculture/ag.html" class="nav-link">Agriculture</a></li>  
+                 <li class="list-item"><a href="water.html" class="nav-link active">Water</a></li> 
+                 <li class="list-item"><a href="../transportation-page/index.html" class="nav-link">Transportation</a></li>  
+                </ul>  
+               </nav>
 
-            <div class="transportation-grid"></div>
-            <p class="page-intro">Everybody should participate in the conservation and protection of water usage in
-                their communities.
-                Water plays an important part in our lives, and should be taken care of responsibly.</p>
-            <h3 class="heading-one">Why should I consider paying more attention to water usage?</h3>
-            <p class="paragraph-one">Conserving water helps to keep our community beautiful and strong. Conserving water
-                where you live is vital to
-                maintaining peaceful life, because it decreases the chances of drought, water shortages, and political
-                conflict.
-                By conserving water in your communities, not only will human life flourish, but wildlife and plantlife
-                as well. Everything depends on water to survive, so
-                why not take care of it? Another reason to be more water-consious is the fact that saving water..saves
-                you money! Using less water at home saves you
-                more money on those annoying water bills. </p>
-            <h3 class="heading-two">How can I be more environmentally friendly when dealing with water in the community?
-            </h3>
-            <strong class="paragraph-two">Some ways to protect H20 in your community include:</strong>
+
+
+
+<!---Green title at the top-->
+        <h1 class="title-of-page">Using Water Responsibly</h1>
+<!--1st section, image and page introduction-->
+            <section class="page-intro">
+<!--Grid-->
+                <div class = "grid-container">
+                    <div class = "grid-item">
+                <img class = "image1" src = "images/water.jpg" alt="First Image of Water" class="center">
+                    </div>
+                    <div class = "grid-item2">
+                <p class = "first-para">Everybody should participate in the conservation and protection of water usage in our communities.
+            Water is and always will be an important part of our lives. It deserves to be treated as such.</p>
+                    </div>
+                    <div class = "grid-item3">
+                        <a href = "#action-steps" class = "cta-button">How to help</a>
+                    </div>
+                </div>
+        </section>
+
+
+<!--2nd Section, Image and information-->  
+            <section class = "why-should-i-care">
+            <img class = "image2" src = "images/water2.jpg" alt="Second Image of Water" class="center">
+            <h3 class = "first-heading">Why should I consider paying more attention to water usage?</h3>
+            <p class= "second-para">Conserving water helps to keep our community beautiful and strong. Conserving water where you live is vital to
+                maintaining peaceful life, because it decreases the chances of drought, water shortages, and even political conflict.
+                <br>
+            By conserving water in our communities, not only will human life flourish, but wildlife and plant life as well. Everything depends on water to survive, so 
+            why not take care of it? Another reason to be more water-conscious is the fact that saving water saves you money! Using less water at home saves you 
+            more money on those annoying water bills  </p>
+        </section>
+
+ 
+<!--3rd Section, image and information-->
+        <section class = "to-be-friendly">
+            <img class = "image3" src = "images/water3.jpg" alt="Third Image of Water" class="center">
+            <h3 class = "second-heading">How can I be more environmentally friendly when using water?</h3>
+            <strong class="third-para">Some ways to protect H20 in your community include:</strong>
+<!--List-->
+            <section id = "action-steps" class = "actions">
             <ul class="water-list">
-                <li>Regularly checking for leaks in your house's pluming system (toilet, sink, shower, ect.)</li>
-                <li>Use the restroom less.. Save those flushes! A single flush alone take 5-7 gallons of water</li>
-                <li>Take shorter showers. As good as warm water feels, do you really need to spend 30+ minutes in there?
-                </li>
-                <li>Consider taking baths instead of showers</li>
-                <li>Turn off sink water when applying soap, shaving cream, or brushing your teeth</li>
-                <li>Water your lawn only when it needs to be watered</li>
-                <li>Collect rain in buckets and use them to water your plants</li>
-                <li>Reach out to community representatives and ask how they are helping</li>
+                <li>Regularly check for leaks in your house's pluming system (toilet, sink, shower, ect.)</li>
+                <li>Use the restroom less... Save those flushes! A single flush alone take 5-7 gallons of water.</li>
+                <li>Take shorter showers. As good as warm water feels, do you really need to spend 30+ minutes in there?</li>
+                <li>Consider taking baths instead of showers.</li>
+                <li>Turn off sink water when applying soap, shaving cream, or brushing your teeth.</li>
+                <li>Water your lawn only when it needs to be watered.</li>
+                <li>Collect rain in buckets and use them to water your plants afterwards.</li>
+                <li>Reach out to community representatives and ask how they are helping.</li>
             </ul>
-    </div>
-    </main>
-    <footer>
-        <section class="whoDunnit">
-            <h3>BYU-Idaho <br>Web Design & Development Student Society</h3>
+            </section>
         </section>
-        <section class="info">
-            <p>What is a carbon footprint?</p>
-            <a href="../index.html">Visit our home page to learn more!</a>
-        </section>
+</main>
 
-        <!-- <section class="sources">
-            <a href="../Source Page/sources.html">Sources</a>
-        </section> -->
-        <!-- BPA Logo -->
-        <img class="bpa-logo" src="/bpa-logo.png" alt="BPA-logo">
-    </footer>
-    </div>
+
+
+<!--Footer stuff-->
+<footer>
+    <section class="whoDunnit">
+        <h3>BYU-Idaho <br>Web Design & Development Student Society</h3>
+    </section>
+    <section class="info">
+        <p>What is a carbon footprint?</p>
+        <a href="../index.html">Visit our home page to learn more!</a>
+    </section>
+
+    <!-- BPA Logo -->
+    <img class="bpa-logo" src="/bpa-logo.png" alt="BPA-logo">
+</footer>
+</div>
 </body>
-
 </html>

@@ -1,91 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href ="home_style.css">
-    
-    <script src ="home.js" defer></script>
-    <title>GreenSpace</title>
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="home_style.css">
+    <link rel="icon" type="image/x-icon" href="images/small_logo.png">
+    <script src="home.js" defer></script>
+    <title>Home | GreenSpace</title>
 </head>
+
 <body>
     <header>
-        <img src = "images/final_logo.png" alt="logo" loading= "lazy"> 
-        <nav class="navbar">  
-            <div class="ham" >  
-            <span class="bar1"></span>  
-            <span class="bar2"></span>  
-            <span class="bar3"></span>  
-            </div>  
-            <ul class="nav-sub">  
-             <li class="list-item"><a href="index.html" class="nav-link">Home</a></li>  
-             <li class="list-item"><a href="./agriculture/ag.html" class="nav-link">Agriculture</a></li>  
-             <li class="list-item"><a href="./water/water.html" class="nav-link">Water</a></li> 
-             <li class="list-item"><a href="./transportation-page/index.html" class="nav-link">Transportation</a></li>  
-            </ul>  
-           </nav>  
+        <img src="images/final_logo.png" alt="logo" loading="lazy">
+        <nav class="navbar">
+            <div class="ham">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <ul class="nav-sub">
+                <li class="list-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="list-item"><a href="./agriculture/ag.html" class="nav-link">Agriculture</a></li>
+                <li class="list-item"><a href="./water/water.html" class="nav-link">Water</a></li>
+                <li class="list-item"><a href="./transportation-page/index.html" class="nav-link">Transportation</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-         
+
         <div class="hero">
-            <video id="background-video" autoplay loop muted poster="/images/foreststart.jpg">
-                <source src="/images/forestvid2.mp4" type="video/mp4">
-              </video>
-           <img src="images/hero_image_sm.jpg" alt="pine forest" loading="lazy"> 
+            <img src="images/hero_image_sm.jpg" alt="pine forest" loading="lazy">
             <div class="info">
                 <h1>What is a Carbon Footprint?</h1>
                 <hr>
-            <p>
-                A carbon footprint is the entire amount of greenhouse gases produced by human actions.
-
-            </p>
-            <a href="#help">How Can I Reduce My Footprint?</a>
+                <p>
+                    A carbon footprint is the entire amount of greenhouse gases produced by human actions.
+                </p>
+                <a href="#help"  class="grow">How Can I Reduce My Footprint?</a>
             </div>
         </div>
         <div class="carbon">
-            <img src="images/panda.jpg" alt="panda" loading= "lazy">
+            <img src="images/panda.jpg" alt="panda" loading="lazy">
             <h2>How Does Carbon Affect Climate Change? </h2>
             <br>
             <hr>
-          
-            <p>Carbon dioxide absorbs heat from the sun and the Earth's surface before releasing it into 
-                the atmosphere. High quantities of greenhouse gases, notably carbon dioxide, threaten to 
-                raise the planet's average surface temperature to unacceptable levels and create a slew of 
-                life-threatening consequences. 
 
-                <br><br>Since the middle of the 18th century, atmospheric carbon dioxide levels have increased by 
-                more than 40%, and climatologists estimate that present levels are the highest in 14 million 
-                years. As carbon dioxide levels rise, fuelling even higher temperature rises, the cumulative 
-                repercussions — such as increased ocean acidification, rising sea levels, more frequent and 
-                powerful storms, mass species extinctions, food scarcity, and increased economic hardship — 
-                will become more apparent.</p>
+            <p>Carbon dioxide absorbs heat from the sun and the Earth's surface before releasing it into
+                the atmosphere. High quantities of greenhouse gases, notably carbon dioxide, threaten to
+                raise the planet's average surface temperature to unacceptable levels and create a slew of
+                life-threatening consequences. </p>
         </div>
         <h2 id="help"> How Can You Help?</h2>
         <section class="help-links">
-            <div class="item1">
-                <h3>Water</h1>
+            <div class="item1 home-item">
+                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                    <source src="images/Glass.mp4" type="video/mp4">
+                </video>
+                <h3>Water</h3>
                 <p>How does water consumption relate to my carbon footprint?
                 </p>
-                <a href = "/water/water.html">Click Here!</a>
+                <a href="/water/water.html"  class="grow">Find Out More!</a>
             </div>
-            <div class="item2">
-                    <h3>Transportation</h3>
-                    <p>What can I do to reduce my carbon footprint through transportation? 
-                    </p>
-                    <a href = "transportation-page/index.html">Find Out More</a>
-            </div>
-            <div class="item3">
-                <h3>Agriculture</h3>
-                <p>How Does Agriculture Impact Our Carbon Footprint?  
+            <div class="item2 home-item">
+                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                    <source src="images/traffic.mp4" type="video/mp4">
+                </video>
+                <h3>Transportation</h3>
+                <p>What can I do to reduce my carbon footprint through transportation?
                 </p>
-                <a href = "./agriculture/ag.html">Find Out More</a>
+                <a href="transportation-page/index.html"  class="grow">Find Out More!</a>
             </div>
-            
+            <div class="item3 home-item">
+                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                    <source src="images/farm.mp4" type="video/mp4">
+                </video>
+                <h3>Agriculture</h3>
+                <p>How does farming impact our carbon footprint?
+                </p>
+                <a href="./agriculture/ag.html"  class="grow">Find Out More!</a>
+            </div>
+
         </section>
-       
+
     </main>
-    <footer></footer>
+    <footer>
+        <section class="whoDunnit">
+            <h3>BYU-Idaho <br>Web Design & Development Student Society</h3>
+        </section>
+        <section class="info">
+            <p>What is a carbon footprint?</p>
+            <a href="../index.html">Visit our home page to learn more!</a>
+        </section>
+
+        <!-- <section class="sources">
+            <a href="../Source Page/sources.html">Sources</a>
+        </section> -->
+        <!-- BPA Logo -->
+        <img class="bpa-logo" src="/bpa-logo.png" alt="BPA-logo">
+    </footer>
 </body>
-</html> 
+
+</html>

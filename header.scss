@@ -1,3 +1,5 @@
+/*----------Font Imports---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap');
 /*---------------COLORS--------------------------*/
 $darkest: #132A13;
 $hunter: #31572C;
@@ -5,8 +7,7 @@ $sap: #4F772D;
 $olivine: #90A955;
 $background: #F5F5F5;
 $tan: #F3EBE1;
-/*----------Font Imports---------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap');
+
 /* --------------MOBILE VIEW-------------------- */
 * {
     overflow-x: hidden;
@@ -20,6 +21,7 @@ header {
     background-color: $background;
     display: flex;
     flex-direction: row;
+    width: 100%;
     img {
         width: 50%;
         margin: 0 auto;
@@ -95,6 +97,7 @@ header {
         flex-direction: row;
         position: sticky;
         top: 0;
+        width: 100%;
         img {
             margin-left: 20px;
             width: 35%;
@@ -104,7 +107,6 @@ header {
             width: 100%;
             font-size: 125%;
             letter-spacing: 2px;
-            padding: none;
             .ham {
                 display: none;
             }

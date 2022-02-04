@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap");
 * {
   margin: 0;
@@ -26,26 +27,39 @@ main {
   margin-bottom: 100px;
 }
 .hero__img {
-  height: auto;
+  max-width: 100%;
+  margin: auto auto;
   position: relative;
+  z-index: 2;
 }
 .hero__heading {
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+.hero .info {
   position: absolute;
-  left: 50px;
-  z-index: 1;
-  background-color: grey;
-  opacity: 0.7;
-  margin-top: 10px;
-  max-width: 250px;
+  top: 75px;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 10px 150px 100px;
+  margin: 20px;
+  border-radius: 7px;
 }
 .hero .cta {
   position: absolute;
-  z-index: 1;
   left: 70px;
-  top: 280px;
+  top: 100px;
   font-size: 1.25em;
+  text-decoration: none;
+  background-color: #90A955;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  border: 3px solid black;
+  margin: auto;
+  border-radius: 7px;
 }
 
 .tip {
@@ -61,47 +75,15 @@ main {
   max-width: 300px;
   display: block;
   margin: 0 auto;
+  border-radius: 35px;
+  box-shadow: 5px 5px 5px black;
 }
 .tip__par {
   padding: 10px;
   color: black;
 }
-
-footer {
-  background-color: grey;
-  color: white;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 200px 200px 1fr;
-  margin-top: 50px;
-}
-footer a {
-  color: white;
-  font-weight: bold;
-}
-footer .info {
-  grid-column: 2/4;
-  grid-row: 2/3;
-  margin-bottom: 20px;
-}
-footer .names {
-  grid-column: 2/3;
-  grid-row: 3/4;
-}
-footer .sources {
-  grid-column: 2/4;
-  grid-row: 3/4;
-  text-align: center;
-}
-footer .whoDunnit {
-  max-width: 300px;
-  background-image: linear-gradient(#31572c, #90a955);
-  padding: 10px;
-  border-radius: 5px;
-  grid-row: 1/2;
-  grid-column: 2/4;
-  text-align: center;
-  margin-bottom: 20px;
+.tip .pro-tip {
+  margin-top: 25px;
 }
 
 @media screen and (min-width: 375px) {
@@ -125,46 +107,48 @@ footer .whoDunnit {
 
   .hero__img {
     display: block;
-    max-width: 600px;
     margin: 0 auto;
     height: auto;
+  }
+  .hero__heading {
+    font-size: 2em;
+  }
+  .hero .info {
+    top: 125px;
   }
 
   .tip__heading {
     max-width: 600px;
   }
   .tip__img {
-    max-width: 550px;
-    margin-left: -5px;
-  }
-  .tip__par {
-    max-width: 350px;
-    justify-items: center;
-  }
-
-  footer {
     max-width: 100%;
   }
-  footer .info {
-    grid-column: 2/4;
-    grid-row: 2/3;
-  }
-  footer .names {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-  footer .sources {
-    grid-column: 2/4;
-    grid-row: 3/4;
-  }
-  footer .whoDunnit {
-    grid-row: 1/2;
-    grid-column: 1/2;
+  .tip__par {
+    max-width: 400px;
+    justify-items: center;
   }
 }
 @media screen and (min-width: 1075px) {
+  .hero__heading {
+    font-size: 3em;
+  }
+  .hero .info {
+    top: 200px;
+    left: 100px;
+  }
+  .hero .cta {
+    max-width: 300px;
+  }
+
   .tip__heading {
     max-width: 300px;
+  }
+  .tip__img {
+    max-width: 550px;
+    margin-left: -15px;
+  }
+  .tip__par {
+    max-width: 375px;
   }
   .tip .special-heading {
     float: right;
@@ -182,10 +166,18 @@ footer .whoDunnit {
   }
   .tip .bus {
     float: right;
+    margin-top: 20px;
   }
   .tip .publicTransport {
     margin-top: 100px;
   }
+  .tip .pro-tip {
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
+=======
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap");*{margin:0;padding:0}body{background-color:whitesmoke}body h1,body h2{font-family:'Tenor Sans', sans-serif;color:#31572C}body p{font-family:'Noto Serif', serif}main{display:block;margin:auto auto;max-width:400px}.hero{color:white;margin-bottom:100px}.hero__img{max-width:100%;margin:auto auto;position:relative;z-index:2}.hero__heading{padding:10px;font-size:1.5em}.hero .info{position:absolute;top:75px;z-index:2;display:-ms-grid;display:grid;-ms-grid-columns:auto;grid-template-columns:auto;-ms-grid-rows:100px 10px 150px 100px;grid-template-rows:100px 10px 150px 100px;margin:20px;border-radius:7px}.hero .cta{position:absolute;left:70px;top:100px;font-size:1.25em;text-decoration:none;background-color:#90A955;color:black;text-align:center;font-size:1rem;padding:10px;border:3px solid black;margin:auto;border-radius:7px}.tip{padding:20px;background-color:#F3EBE1;margin-bottom:20px}.tip__heading{margin-bottom:10px;max-width:300px}.tip__img{max-width:300px;display:block;margin:0 auto}.tip__par{padding:10px;color:black}.tip .pro-tip{margin-top:25px}@media screen and (min-width: 375px){body{width:100%}body h1{font-size:.5em}body h2{font-size:1.5em}body p,body a{font-size:1.15em}main{max-width:80%;margin:0 auto}.hero__img{display:block;margin:0 auto;height:auto}.hero__heading{font-size:2em}.hero .info{top:125px}.tip__heading{max-width:600px}.tip__img{max-width:100%}.tip__par{max-width:400px;justify-items:center}}@media screen and (min-width: 1075px){.hero__heading{font-size:3em}.hero .info{top:200px;left:100px}.hero .cta{max-width:300px}.tip__heading{max-width:300px}.tip__img{max-width:550px;margin-left:-15px}.tip__par{max-width:375px}.tip .special-heading{float:right}.tip .pub-heading{margin-bottom:-50px;margin-left:50px}.tip .bike-heading{margin-right:135px}.tip .plane,.tip .bikes{float:right;margin-top:-300px}.tip .bus{float:right}.tip .publicTransport{margin-top:100px}.tip .pro-tip{margin-top:20px}}
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 67c8267fd132c18a247babd6e934bb2cfdd42636

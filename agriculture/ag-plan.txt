@@ -40,3 +40,4 @@ Present the issues and then the solution.
 sources:
 livestock-img: https://unsplash.com/photos/0vVQWN_D26c
 forestry-img: https://unsplash.com/photos/5xmFg-EGhpw
+hero-img: https://unsplash.com/photos/sYffw0LNr7s

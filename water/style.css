@@ -176,8 +176,8 @@
         }
         
         .image2{
-            width: 80%;
-            height:80%;
+            width: 500px;
+            /* height:80%; */
             display: block;
            
             margin-left: auto;
@@ -187,8 +187,8 @@
         }
         
         .image3{
-            width: 80%;
-            height:80%;
+            width: 50%;
+            /* height:80%; */
             display: block;
            
             margin-left: auto;

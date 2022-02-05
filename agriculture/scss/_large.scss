@@ -6,6 +6,27 @@ main {
     .info {
       top: 60%;
       bottom: 20%;
+      left: 30%;
+      right: 30%;
+    }
+    img {
+      box-shadow: none;
+      border-radius: 0;
+    }
+  }
+
+  .livestock {
+    img {
+      float: right;
+      width: 50%;
+      margin-left: 20px;
+    }
+  }
+  .land {
+    img {
+      float: left;
+      width: 50%;
+      margin-right: 20px;
     }
   }
   .actions {
@@ -16,7 +37,7 @@ main {
         grid-template-columns: repeat(3, 1fr);
         background-color: $tan;
         li {
-          background-color: #eaeaea;
+          background-color: $green-4;
           height: 150px;
           display: block;
           margin: 10px;

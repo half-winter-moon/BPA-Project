@@ -32,10 +32,9 @@ header {
     justify-content:space-between;  
     align-items:center;  
     position: fixed;
-    z-index: 50;
+    top: 415px;
     left: 10px;
-    bottom: 0px;
-
+    z-index: 500;
    }
    .nav-sub{  
     display:flex;  
@@ -107,6 +106,8 @@ header {
             width: 100%;
             font-size: 125%;
             letter-spacing: 2px;
+            top: 0;
+            left: 0;
             .ham {
                 display: none;
             }

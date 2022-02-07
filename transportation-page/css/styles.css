@@ -1,2 +1,178 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap");*{margin:0;padding:0}body{background-color:whitesmoke}body h1,body h2{font-family:'Tenor Sans', sans-serif;color:#31572C}body p{font-family:'Noto Serif', serif}main{display:block;margin:auto auto;max-width:400px}.hero{color:white;margin-bottom:100px}.hero__img{max-width:100%;margin:auto auto;position:relative;z-index:2}.hero__heading{padding:10px;font-size:1.5em}.hero .info{position:absolute;top:75px;z-index:2;display:-ms-grid;display:grid;-ms-grid-columns:auto;grid-template-columns:auto;-ms-grid-rows:100px 10px 150px 100px;grid-template-rows:100px 10px 150px 100px;margin:20px;border-radius:7px}.hero .cta{position:absolute;left:70px;top:100px;font-size:1.25em;text-decoration:none;background-color:#90A955;color:black;text-align:center;font-size:1rem;padding:10px;border:3px solid black;margin:auto;border-radius:7px}.tip{padding:20px;background-color:#F3EBE1;margin-bottom:20px}.tip__heading{margin-bottom:10px;max-width:300px}.tip__img{max-width:300px;display:block;margin:0 auto;border-radius:35px;-webkit-box-shadow:5px 5px 5px black;box-shadow:5px 5px 5px black}.tip__par{padding:10px;color:black}.tip .pro-tip{margin-top:25px}@media screen and (min-width: 375px){body{width:100%}body h1{font-size:.5em}body h2{font-size:1.5em}body p,body a{font-size:1.15em}main{max-width:80%;margin:0 auto}.hero__img{display:block;margin:0 auto;height:auto}.hero__heading{font-size:2em}.hero .info{top:125px}.tip__heading{max-width:600px}.tip__img{max-width:100%}.tip__par{max-width:400px;justify-items:center}}@media screen and (min-width: 1075px){.hero__heading{font-size:3em}.hero .info{top:200px;left:100px}.hero .cta{max-width:300px}.tip__heading{max-width:300px}.tip__img{max-width:550px;margin-left:-15px}.tip__par{max-width:375px}.tip .special-heading{float:right}.tip .pub-heading{margin-bottom:-50px;margin-left:50px}.tip .bike-heading{margin-right:135px}.tip .plane,.tip .bikes{float:right;margin-top:-300px}.tip .bus{float:right;margin-top:20px}.tip .publicTransport{margin-top:100px}.tip .pro-tip{margin-top:20px}}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+body h1, body h2 {
+  font-family: "Tenor Sans", sans-serif;
+  color: #31572C;
+}
+body p {
+  font-family: "Noto Serif", serif;
+}
+
+main {
+  display: block;
+  margin: auto auto;
+  max-width: 400px;
+}
+
+.hero {
+  color: white;
+  margin-bottom: 100px;
+}
+.hero__img {
+  max-width: 100%;
+  margin: auto auto;
+  position: relative;
+  z-index: 2;
+}
+.hero__heading {
+  padding: 10px;
+  font-size: 1.5em;
+}
+.hero .info {
+  position: absolute;
+  top: 75px;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 10px 150px 100px;
+  margin: 20px;
+  border-radius: 7px;
+}
+.hero .cta {
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  font-size: 1.25em;
+  text-decoration: none;
+  background-color: #90A955;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  border: 3px solid black;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.tip {
+  padding: 20px;
+  background-color: #F3EBE1;
+  margin-bottom: 20px;
+}
+.tip__heading {
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+.tip__img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  box-shadow: 5px 5px 5px black;
+}
+.tip__par {
+  padding: 10px;
+  color: black;
+}
+.tip .pro-tip {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    width: 100%;
+  }
+  body h1 {
+    font-size: 0.5em;
+  }
+  body h2 {
+    font-size: 1.5em;
+  }
+  body p, body a {
+    font-size: 1.15em;
+  }
+
+  main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero__img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+  }
+  .hero__heading {
+    font-size: 2em;
+  }
+  .hero .info {
+    top: 125px;
+  }
+
+  .tip__heading {
+    max-width: 600px;
+  }
+  .tip__img {
+    max-width: 100%;
+  }
+  .tip__par {
+    max-width: 400px;
+    justify-items: center;
+  }
+}
+@media screen and (min-width: 1075px) {
+  .hero__heading {
+    font-size: 3em;
+  }
+  .hero .info {
+    top: 200px;
+    left: 150px;
+  }
+  .hero .cta {
+    max-width: 300px;
+  }
+
+  .tip__heading {
+    max-width: 300px;
+  }
+  .tip__img {
+    max-width: 550px;
+    margin-left: -15px;
+  }
+  .tip__par {
+    max-width: 375px;
+  }
+  .tip .special-heading {
+    float: right;
+  }
+  .tip .pub-heading {
+    margin-bottom: -50px;
+    margin-left: 50px;
+  }
+  .tip .bike-heading {
+    margin-right: 135px;
+  }
+  .tip .plane, .tip .bikes {
+    float: right;
+    margin-top: -300px;
+  }
+  .tip .bus {
+    float: right;
+    margin-top: 20px;
+  }
+  .tip .publicTransport {
+    margin-top: 100px;
+  }
+  .tip .pro-tip {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

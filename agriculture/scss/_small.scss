@@ -21,10 +21,10 @@ main {
   }
   h1 {
     text-align: center;
-    background-color: $green-1;
     color: $tan;
-    padding: 10px 0;
-    margin-bottom: 0;
+    padding: 10px 0 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid white;
   }
   section {
     padding: 50px 20px;
@@ -47,6 +47,47 @@ main {
   img {
     width: 100%;
   }
+  #hero {
+    padding: 20px 0px;
+    img {
+      position: relative;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    .info {
+      position: absolute;
+      top: 15%;
+      bottom: 55%;
+      right: 15%;
+      left: 15%;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+
+      .cta-button {
+        text-decoration: none;
+        background-color: $olivine;
+        color: black;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+        border: 3px solid black;
+        margin: auto;
+        border-radius: 7px;
+      }
+
+      h2 {
+        padding-top: 0px;
+        margin-top: 10px;
+        text-align: center;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
+
   .actions {
     background-color: $tan;
     h3 {
@@ -82,42 +123,6 @@ main {
         bottom: 50%;
         right: 0;
       }
-    }
-  }
-}
-
-main #hero {
-  padding: 20px 0px;
-  img {
-    position: relative;
-    box-shadow: none;
-    border-radius: 0;
-  }
-  .info {
-    position: absolute;
-    top: 30%;
-    bottom: 50%;
-    right: 15%;
-    left: 15%;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-
-    .cta-button {
-      text-decoration: none;
-      background-color: $olivine;
-      color: black;
-      text-align: center;
-      font-size: 1rem;
-      padding: 10px;
-      border: 3px solid black;
-      margin: auto;
-      border-radius: 7px;
-    }
-
-    h2 {
-      padding-top: 0px;
-      margin-top: 10px;
-      text-align: center;
     }
   }
 }

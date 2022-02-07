@@ -9,7 +9,7 @@
     }
 
 
-    h2,h3, h4, h5, h6{ 
+    h2, h4, h5, h6{ 
         font-family: 'Tenor Sans', sans-serif;
         font-size: 24px;;
           text-align:left;
@@ -149,7 +149,11 @@
 body {
     max-width: 100%;
     }
- h2,h3, h4, h5, h6{ 
+
+
+
+ h2, h4, h5, h6{ 
+    font-family: 'Tenor Sans', sans-serif;
     font-size: 1.5em;
     }
     .page-intro{
@@ -167,7 +171,7 @@ body {
         width: 50%;
         margin: 0 auto;
         border-radius: 7px 7px 0px 0px;  
-        height: 25%;
+        height: 15%;
         padding: 20px;
         margin-top: 40px;
         background: rgba(0, 0, 0, 0.5);
@@ -178,7 +182,7 @@ body {
        height: 70%;
         width: 50%;
         margin: 0 auto;
-        margin-top: 155px;
+        margin-top: 125px;
         font-size: 1.3rem;
         border-radius: 0px 0px 7px 7px;
     }

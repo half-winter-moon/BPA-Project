@@ -1,3 +1,5 @@
+/*----------Font Imports---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap');
 /*---------------COLORS--------------------------*/
 $darkest: #132A13;
 $hunter: #31572C;
@@ -5,8 +7,7 @@ $sap: #4F772D;
 $olivine: #90A955;
 $background: #F5F5F5;
 $tan: #F3EBE1;
-/*----------Font Imports---------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tenor+Sans&display=swap');
+
 
 /* --------------MOBILE VIEW-------------------- */
 body {
@@ -42,9 +43,7 @@ main {
 
     .info {
         position: absolute;
-        top: 15%;
-        right: 0;
-        left: 0;
+        top: 10%;
         display: flex;
         flex-direction: column;
         margin: 20px;
@@ -91,6 +90,7 @@ main {
 }
 
 .carbon {
+    padding: 40px;
     margin-top: 0;
     background-color: $tan;
 
@@ -124,7 +124,7 @@ main {
 #help {
     color: $background;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     letter-spacing: 2px;
     font-size: 1.5rem;
     background-color: $hunter;
@@ -273,7 +273,7 @@ main {
     .hero {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 300px 200px;
         overflow-y: hidden;
         height: 75%;
         .small {
@@ -288,14 +288,22 @@ main {
         }
 
         .info {
-            top: 0px;
+            top: 40px;
+            margin: 20px;
             height: 50%;
             grid-row: 1/3;
             grid-column: 1/3;
             width: 50%;
             position: relative;
-            height: 100%;
+            height: 50%;
             margin: 0 auto;
+            overflow-y: hidden;
+            h1 {
+                overflow-y: hidden;
+            }
+            a {
+                overflow-y: hidden;
+            }
         }
     }
 

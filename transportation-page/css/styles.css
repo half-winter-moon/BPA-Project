@@ -7,15 +7,13 @@
 body {
   background-color: whitesmoke;
 }
-
 body h1,
 body h2 {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   color: #31572c;
 }
-
 body p {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 main {
@@ -28,20 +26,18 @@ main {
   color: white;
   margin-bottom: 100px;
 }
-
 .hero__img {
   max-width: 100%;
   margin: auto auto;
   position: relative;
 }
-
 .hero__heading {
-  padding: 10px;
+  padding: 20px;
   font-size: 1.5em;
   color: white;
   text-align: center;
+  border-bottom: 3px solid white;
 }
-
 .hero .info {
   position: absolute;
   top: 10%;
@@ -53,7 +49,6 @@ main {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.5);
 }
-
 .hero .cta {
   position: absolute;
   left: 15%;
@@ -76,31 +71,26 @@ main {
   background-color: #f3ebe1;
   margin-bottom: 20px;
 }
-
 .tip__heading {
   margin-bottom: 10px;
   max-width: 300px;
 }
-
 .tip__img {
   max-width: 300px;
   display: block;
   margin: 0 auto;
   border-radius: 35px;
-  -webkit-box-shadow: 5px 5px 5px black;
-          box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
 }
-
 .tip__par {
   padding: 10px;
   color: black;
 }
-
 .tip .pro-tip {
   margin-top: 25px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 550px) {
   body {
     width: 100%;
   }
@@ -111,13 +101,15 @@ main {
     font-size: 1.5em;
   }
   body p,
-  body a {
+body a {
     font-size: 1.15em;
   }
+
   main {
     max-width: 80%;
     margin: 0 auto;
   }
+
   .hero__img {
     display: block;
     margin: 0 auto;
@@ -136,6 +128,7 @@ main {
     left: 20%;
     right: 20%;
   }
+
   .tip__heading {
     max-width: 600px;
   }
@@ -147,22 +140,23 @@ main {
     justify-items: center;
   }
 }
-
 @media screen and (min-width: 1075px) {
   .hero__heading {
-    font-size: 3em;
+    font-size: 32px;
   }
   .hero .info {
+    width: 50%;
     top: 200px;
     bottom: 30%;
-    left: 15%;
-    right: 15%;
+    left: 25%;
+    right: 25%;
   }
   .hero .cta {
     left: 35%;
     right: 35%;
     max-width: 300px;
   }
+
   .tip__heading {
     max-width: 300px;
   }
@@ -184,7 +178,7 @@ main {
     margin-right: 135px;
   }
   .tip .plane,
-  .tip .bikes {
+.tip .bikes {
     float: right;
     margin-top: -300px;
   }
@@ -199,4 +193,5 @@ main {
     margin-top: 20px;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */

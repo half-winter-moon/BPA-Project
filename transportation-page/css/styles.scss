@@ -29,10 +29,11 @@ main {
     position: relative;
   }
   &__heading {
-    padding: 10px;
+    padding: 20px;
     font-size: 1.5em;
     color: white;
     text-align: center;
+    border-bottom: 3px solid white;
   }
   .info {
     position: absolute;
@@ -88,7 +89,7 @@ main {
 }
 
 // medium screen
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 550px) {
   body {
     width: 100%;
     h1 {
@@ -143,13 +144,14 @@ main {
 @media screen and (min-width: 1075px) {
   .hero {
     &__heading {
-      font-size: 3em;
+      font-size: 32px;
     }
     .info {
+      width: 50%;
       top: 200px;
       bottom: 30%;
-      left: 15%;
-      right: 15%;
+      left: 25%;
+      right: 25%;
     }
     .cta {
       left: 35%;

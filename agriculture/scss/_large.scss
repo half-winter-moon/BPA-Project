@@ -4,10 +4,16 @@ main {
 
   #hero {
     .info {
-      top: 60%;
-      bottom: 20%;
+      top: 35%;
+      bottom: 30%;
       left: 30%;
       right: 30%;
+      p {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 25px;
+      }
     }
     img {
       box-shadow: none;

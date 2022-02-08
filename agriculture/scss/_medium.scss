@@ -9,8 +9,13 @@ main {
 
   #hero {
     .info {
-      top: 40%;
-      bottom: 30%;
+      top: 25%;
+      bottom: 40%;
+      p {
+        display: block;
+        padding: 10px 10px 0 10px;
+        margin-bottom: 25px;
+      }
     }
     img {
       box-shadow: none;

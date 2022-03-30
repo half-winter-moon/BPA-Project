@@ -27,30 +27,14 @@ main {
 }
 
 .hero {
-    .small {
-        position: relative;
-        height: 400px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .large{
-        display:none;
-    }
-
-    #background-video {
-        display: none;
-    }
-
+    background-image: url('/images/hero_image_sm.jpg');
     .info {
-        position: absolute;
-        top: 10%;
         display: flex;
         flex-direction: column;
         margin: 20px;
         padding: 20px;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 7px;
-
         h1 {
             color: white;
             padding: 10px;
@@ -84,34 +68,27 @@ main {
 }
 
 .carbon {
-    padding: 40px;
-    margin-top: 0;
+    padding: 80px 40px;
     background-color: $tan;
+    margin-top: 80px;
 
     h2 {
-        max-height: 100%;
-        margin: 0;
+        width: 100%;
+        margin: 0 auto;
         color: $hunter;
         font-size: 1.5rem;
         text-align: center;
-        padding-top: 10px;
+        padding: 10px;
+        border-bottom: 3px solid $darkest;
     }
 
     img {
         width: 100%;
+        
     }
-
-    hr {
-        margin: 0 auto;
-        width: 50%;
-        height: 1px;
-        background-color: black;
-    }
-
     p {
+        line-height: 2em;
         padding: 10px;
-
-        letter-spacing: 2px;
     }
 }
 
@@ -265,6 +242,8 @@ main {
     }
 
     .hero {
+        background-image: url('/images/forest.jpg');
+        background-size: cover;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 300px 200px;
@@ -301,13 +280,20 @@ main {
     }
 
     .carbon {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
         img {
-            width: 25%;
+            width: 35%;
             float: left;
             margin: 10px;
-            margin-top: 15px;
+     
             border-radius: 7px;
             box-shadow: 5px 5px 5px;
+        }
+        p{
+            padding: 40px;
+            font-size: 1.3rem;
         }
     }
 

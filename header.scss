@@ -13,7 +13,7 @@ $tan: #F3EBE1;
     overflow-x: hidden;
     margin: 0;
   }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, li {
     font-family: 'Tenor Sans', sans-serif;  
 } 
 
@@ -22,18 +22,19 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 40px auto 40px auto;
     img {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
+    }
+    a {
+        width: 65%;
     }
 }
 .navbar {  
     display:flex;    
     justify-content:space-between;  
     align-items:center;  
-    position: fixed;
-    top: 400px;
-    left: 10px;
     z-index: 500;
    }
    .nav-sub{  
@@ -65,15 +66,18 @@ header {
     .ham {    
      padding:10px; 
      cursor:pointer;
-     background-color: #ef233c;
+     background-color: #007f3c;
      border-radius: 7px;
+     z-index: 500;
+    right: 10px;
+    position: fixed;
     }  
     .bar1,.bar2,.bar3{  
      display:block;  
      width:35px;  
-     height:3px;  
+     height:3px;
      margin:5px auto;  
-     background-color:black;  
+     background-color:white;  
      transition: 0.4s;  
     }   
     .nav-change{  
@@ -90,21 +94,25 @@ header {
      }  
 
 
-@media only screen and (min-width:500px){    
+@media only screen and (min-width:800px){    
     header {
         display: flex;
         flex-direction: row;
         position: sticky;
         top: 0;
         width: 100%;
-        img {
+        a {
+            width: 60%;
+            overflow-x: auto;
+        }
+        a>img {
             margin-left: 20px;
-            width: 35%;
+            width: 75%;
         }
         .navbar {
             position: relative;
             width: 100%;
-            font-size: 125%;
+            font-size: 150%;
             letter-spacing: 2px;
             top: 0;
             left: 0;
@@ -129,7 +137,7 @@ header {
                     display: block;
                     width: 0;
                     height: 5px;
-                    background: green;
+                    background: #007F3C;
                     transition: width .3s;
                 }
                 .list-item:hover::after {

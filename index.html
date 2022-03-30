@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <img src="images/final_logo.png" alt="logo" loading="lazy">
+        <a href = "index.html"><img src="images/final_logo.png" alt="logo" loading="lazy"></a>
         <nav class="navbar">
             <div class="ham">
                 <span class="bar1"></span>
@@ -34,8 +34,6 @@
     <main>
 
         <div class="hero">
-            <img class="small" src="images/hero_image_sm.jpg" alt="pine forest" loading="lazy">
-            <img class="large" src="images/forest.jpg" alt="forest" loading="lazy">
             <div class="info">
                 <h1>What is a Carbon Footprint?</h1>
                 <p>
@@ -47,8 +45,6 @@
         <div class="carbon">
             <img src="images/panda.jpg" alt="panda" loading="lazy">
             <h2>How Does Carbon Affect Climate Change? </h2>
-            <br>
-            <hr>
 
             <p>Carbon dioxide absorbs heat from the sun and the Earth's surface before releasing it into
                 the atmosphere. High quantities of greenhouse gases, notably carbon dioxide, threaten to
@@ -58,7 +54,7 @@
         <h2 id="help"> How Can You Help?</h2>
         <section class="help-links">
             <div class="item1 home-item">
-                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                <video id="vid1" class="video" loop muted>
                     <source src="images/Glass.mp4" type="video/mp4">
                 </video>
                 <h3>Water</h3>
@@ -67,7 +63,7 @@
                 <a href="water/water.html" class="grow">Find Out More!</a>
             </div>
             <div class="item2 home-item">
-                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                <video id="vid2" class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
                     <source src="images/traffic.mp4" type="video/mp4">
                 </video>
                 <h3>Transportation</h3>
@@ -76,7 +72,8 @@
                 <a href="transportation-page/index.html" class="grow">Find Out More!</a>
             </div>
             <div class="item3 home-item">
-                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                <video id="vid3"  class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                    <h3>Test Text on hover</h3>
                     <source src="images/farm.mp4" type="video/mp4">
                 </video>
                 <h3>Agriculture</h3>

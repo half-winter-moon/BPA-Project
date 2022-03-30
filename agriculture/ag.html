@@ -16,7 +16,6 @@
     <script src="../home.js" defer></script>
     <title>Agricultural Impact | Green Spaces</title>
   </head>
-
   <body>
     <header id="page-header">
       <img src="../images/final_logo.png" alt="logo" loading="lazy" />
@@ -45,7 +44,7 @@
       </nav>
     </header>
     <main>
-      <section id="hero">
+      <div id="hero">
         <picture>
           <source
             media="(max-width: 640px)"
@@ -67,13 +66,13 @@
         <div class="info">
           <h1>Agricultural Impact</h1>
           <p>
-            Learn what impact agriculture can have on emssions and what you can
+            Learn what impact agriculture can have on emissions and what you can
             do to help!
           </p>
-          <a href="#action-steps" class="cta-button">Take Action Today</a>
+          <a href="#action-steps" class="grow">Take Action Today</a>
         </div>
-      </section>
-      <section class="livestock clear-fix">
+      </div>
+      <section class="livestock content">
         <picture>
           <source
             media="(max-width: 640px)"
@@ -92,19 +91,21 @@
             alt="Cattle eating grass on a field in the mountains of Zallinger, Italy."
           />
         </picture>
-        <h2>Agriculture and Livestock Management</h2>
-        <p>
-          Manure is one of the culprits for Carbon emissions in the
-          Agriculture/Livestock industry. To reduce the amount of Carbon, we
-          must change the way manure is stored.<br /><br />
-          Does your stomach often feel weird when you eat certain foods?
-          Interestingly enough, the foods given to livestock can have an effect
-          on how much Carbon (in the form of Methane) they produce. If we focus
-          on giving livestock food that causes them to produce less Methane,
-          then we can decrease the Carbon footprint of this industry.
-        </p>
+        <div class="content-text">
+          <h2>Agriculture and Livestock Management</h2>
+          <p>
+            Manure is one of the culprits for Carbon emissions in the
+            Agriculture/Livestock industry. To reduce the amount of Carbon, we
+            must change the way manure is stored.<br /><br />
+            Does your stomach often feel weird when you eat certain foods?
+            Interestingly enough, the foods given to livestock can have an
+            effect on how much Carbon (in the form of Methane) they produce. If
+            we focus on giving livestock food that causes them to produce less
+            Methane, then we can decrease the Carbon footprint of this industry.
+          </p>
+        </div>
       </section>
-      <section class="land clear-fix">
+      <section class="land content">
         <picture>
           <source
             media="(max-width: 640px)"
@@ -123,41 +124,34 @@
             alt="Cattle eating grass on a field in the mountains of Zallinger, Italy."
           />
         </picture>
-        <h2>Land Management</h2>
-        <p>
-          The way in which land is managed and maintained can have a significant
-          impact on how much Carbon is emitted and how much Carbon is removed
-          from the air. Since 1990 The EPA records that Land-Use/Forestry
-          efforts have removed more Carbon from the air than they have emitted.
-          What can be done to keep this going and increase the removal of
-          Carbon? We need to continue to maintain and reforest land and
-          deforested areas.
-        </p>
+        <div class="content-text">
+          <h2>Land Management</h2>
+          <p>
+            The way in which land is managed and maintained can have a
+            significant impact on how much Carbon is emitted and how much Carbon
+            is removed from the air. Since 1990 The EPA records that
+            Land-Use/Forestry efforts have removed more Carbon from the air than
+            they have emitted. What can be done to keep this going and increase
+            the removal of Carbon? We need to continue to maintain and reforest
+            land and deforested areas.
+          </p>
+        </div>
       </section>
-      <section id="action-steps" class="actions">
+      <section id="action-steps" class="actions content">
         <h2>Specific Steps</h2>
         <h3>What are some of the specific steps we can take?</h3>
         <div id="carousel">
-          <ul id="actions-list">
-            <li>
-              <p>
-                Continue to support and further Land Management organizations
-              </p>
-            </li>
-            <li>
-              <p>
-                Become informed on how manure should properly be stored and
-                disposed of. Help the local government or agriculture
-                organizations implement those ideas.
-              </p>
-            </li>
-            <li>
-              <p>
-                Support local organization and companies that grow food and
-                other products organically.
-              </p>
-            </li>
-          </ul>
+          <p class="carousel-item">
+            Continue to support and further Land Management organizations
+          </p>
+          <p class="carousel-item">
+            Become informed on how manure should properly be stored and disposed
+            of.
+          </p>
+          <p class="carousel-item">
+            Support local organization and companies that grow food and other
+            products organically.
+          </p>
           <span class="material-icons" id="left"> chevron_left </span>
           <span class="material-icons" id="right"> chevron_right </span>
         </div>

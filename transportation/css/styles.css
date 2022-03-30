@@ -50,6 +50,7 @@ main {
 }
 .hero .info p {
   padding: 10px;
+  text-align: center;
 }
 .hero .cta {
   position: absolute;

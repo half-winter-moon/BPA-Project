@@ -23,11 +23,12 @@ body {
   main {
     // hero styles
     #hero {
+      margin-bottom: 30px;
+
       // image
       picture {
         position: relative;
         width: 100%;
-        height: 400px;
         img {
           width: 100%;
           height: 400px;

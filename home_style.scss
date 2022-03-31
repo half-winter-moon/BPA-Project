@@ -60,7 +60,6 @@ main {
             text-align: center;
             font-size: 1rem;
             padding: 10px;
-            border: 3px solid black;
             margin: auto;
             border-radius: 7px;
         }
@@ -307,7 +306,7 @@ main {
         flex-direction: column;
     }
     .home-item {
-        height: 50vh;
+        height: 75vh;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
@@ -382,6 +381,7 @@ main {
         .text_box {
             grid-column: 1;
             color: grey;
+            
         }
         h3 {
             color: $darkest;

@@ -131,6 +131,9 @@ header {
                 padding: 0;
             .list-item {
                 border: 0px;
+                color: black;
+                font-size: 1.2em;
+                overflow-y: hidden;
             }
             .list-item::after {
                     content: '';

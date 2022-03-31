@@ -198,7 +198,7 @@ li:not(:first-of-type) {
     }
 
     .title-of-page {
-        max-width: 600px;
+        max-width: 50%;
         margin: 0 auto;
         border-radius: 7px 7px 0px 0px;
         height: 15%;

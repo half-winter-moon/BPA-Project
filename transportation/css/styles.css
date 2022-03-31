@@ -193,6 +193,7 @@ body a {
     grid-column: 1/2;
     grid-row: 1/3;
     margin-bottom: 50px;
+    max-width: 90%;
   }
   .content .pub-heading {
     margin-left: 0px;
@@ -209,6 +210,7 @@ body a {
     margin-top: 20px;
     grid-column: 2/3;
     grid-row: 3/5;
+    max-width: 90%;
   }
   .content .bike-heading {
     grid-column: 2/3;
@@ -226,6 +228,7 @@ body a {
   .content .bike-img {
     grid-column: 1/2;
     grid-row: 5/7;
+    max-width: 90%;
   }
 
   .tip__heading {

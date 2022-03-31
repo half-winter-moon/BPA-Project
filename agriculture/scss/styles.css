@@ -48,6 +48,7 @@ body main #hero .info {
   position: absolute;
   top: 10%;
   margin: 20px;
+  margin-top: 170px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 7px;
@@ -91,6 +92,11 @@ body main .content div h2 {
   margin-top: 0;
   padding: 30px 0 20px 0;
   text-align: center;
+}
+
+body main .content div p {
+  overflow-y: hidden;
+  line-height: 1.5em;
 }
 
 body main .content picture {

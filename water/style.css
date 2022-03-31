@@ -170,7 +170,7 @@ li:not(:first-of-type) {
     padding-top: 15px;
 }
 
-@media screen and (min-width:376px) {
+@media screen and (min-width:676px) {
     body {
         max-width: 100%;
     }
@@ -198,10 +198,10 @@ li:not(:first-of-type) {
     }
 
     .title-of-page {
-        max-width: 50%;
+        width: 50%;
         margin: 0 auto;
         border-radius: 7px 7px 0px 0px;
-        height: 15%;
+        height: 20%;
         padding: 20px;
         margin-top: 40px;
         background: rgba(0, 0, 0, 0.5);
@@ -234,7 +234,7 @@ li:not(:first-of-type) {
     }
 
     .cta-button {
-        margin-top: 20px;
+        margin-top: 50px;
         height: 30px;
     }
 
@@ -260,7 +260,7 @@ li:not(:first-of-type) {
         grid-column: 2/3;
         grid-row: 1/2;
         letter-spacing: 1px;
-        margin-bottom: 0;
+        margin-bottom: 30px;
         font-size: 2rem;
         color: #31572C;
     }

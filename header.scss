@@ -94,7 +94,7 @@ header {
      }  
 
 
-@media only screen and (min-width:800px){    
+@media only screen and (min-width:1000px){    
     header {
         display: flex;
         flex-direction: row;
@@ -112,7 +112,7 @@ header {
         .navbar {
             position: relative;
             width: 100%;
-            font-size: 150%;
+            font-size: 125%;
             letter-spacing: 2px;
             top: 0;
             left: 0;

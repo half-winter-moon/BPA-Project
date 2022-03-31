@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-
 h2,
 h4,
 h5,
@@ -110,13 +109,7 @@ li {
     border-radius: 7px;
     margin-top: 30px;
 }
-.cta-button {
-    transition: 1s ease;
-}
-.cta-button:hover {
-    transform: scale(1.2);
-    transition: 1s ease;
-}
+
 
 
 .why-should-i-care {
@@ -228,22 +221,17 @@ li:not(:first-of-type) {
         margin-top: 125px;
         font-size: 1.3rem;
     }
-
-   
-
     .cta-button {
+        margin-top: 50px;
+        height: 30px;
         transition: 1s ease;
     }
-
     .cta-button:hover {
         transform: scale(1.2);
         transition: 1s ease;
     }
 
-    .cta-button {
-        margin-top: 50px;
-        height: 30px;
-    }
+   
 
     .why-should-i-care {
         display: grid;
@@ -324,8 +312,6 @@ li:not(:first-of-type) {
         margin-top: 28px;
         background: rgba(0, 0, 0, 0.5);
     }
-
-
 }
 
 @media screen and (max-width: 400px) {

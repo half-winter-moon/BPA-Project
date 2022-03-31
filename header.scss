@@ -100,11 +100,10 @@ header {
         display: flex;
         flex-direction: row;
         position: sticky;
-        top: 0;
         width: 100%;
         a {
-            max-width: 30%;
-            overflow-x: auto;
+            width: 100%;
+                        overflow-x: hidden;
         }
         a>img {
             margin-left: 20px;
@@ -131,7 +130,6 @@ header {
             .list-item {
                 color: black;
                 border: 0px;
-                
                 height: fit-content;
                 a {
                     margin: auto;

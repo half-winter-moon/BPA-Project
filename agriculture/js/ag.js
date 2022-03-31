@@ -1,11 +1,10 @@
 // create a carousel for the actions
 let htmlElement = document.getElementsByTagName('html');
 
-// get the ul element
+// get the carousel items
+const actions = document.getElementsByClassName('carousel-item');
 
-const ulActions = document.getElementById('actions-list');
-
-const actionsList = [...ulActions.children];
+const actionsList = [...actions];
 const lenActions = actionsList.length;
 
 // set the beginning one
@@ -13,7 +12,7 @@ let active = 0;
 
 // set up or remove the carousel depending on users view width
 window.onresize = () => {
-  if (htmlElement[0].offsetWidth >= 768) {
+  if (htmlElement[0].offsetWidth >= 754) {
     actionsList.forEach((element) => {
       element.style.display = 'block';
     });

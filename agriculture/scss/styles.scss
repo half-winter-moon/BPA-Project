@@ -1,10 +1,14 @@
-@import 'normalize';
 @import 'variables';
-@import 'small';
+@import 'extra_small';
+
+@media screen and (min-width: 348px) and (max-width: 768px) {
+  @import 'small';
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   @import 'medium';
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1023px) {
   @import 'large';
 }

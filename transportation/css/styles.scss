@@ -22,7 +22,6 @@ main {
 .hero {
   color: white;
   margin-bottom: 100px;
-
   &__img {
     max-width: 100%;
     margin: auto auto;
@@ -38,9 +37,9 @@ main {
   .info {
     position: absolute;
     top: 15%;
-    bottom: 47%;
+    bottom: 31%;
     margin: 20px;
-    margin-top: 0px;
+    margin-top: 100px;
     border-radius: 7px;
     background: rgba(0, 0, 0, 0.5);
     overflow-x: visible;
@@ -63,6 +62,7 @@ main {
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 7px;
+    max-width: 150px;
   }
   .grow{
     transition: 1s ease;
@@ -133,8 +133,8 @@ main {
       font-size: 2em;
     }
     .info {
-      // top: 20%;
-      bottom: 40%;
+      top: 20%;
+      bottom: 20%;
       left: 10%;
       right: 10%;
       p {
@@ -170,14 +170,15 @@ main {
     .info {
       width: 50%;
       top: 200px;
-      bottom: 30%;
+      bottom: 10%;
       left: 25%;
       right: 25%;
     }
     .cta {
       left: 35%;
       right: 35%;
-      max-width: 300px;
+      max-width: 200px;
+      font-size: 1.25rem;
     }
   }
 

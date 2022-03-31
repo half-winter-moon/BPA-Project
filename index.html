@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <img src="images/final_logo.png" alt="logo" loading="lazy">
+        <a href = "index.html"><img src="images/final_logo.png" alt="logo" loading="lazy"></a>
         <nav class="navbar">
             <div class="ham">
                 <span class="bar1"></span>
@@ -23,66 +23,74 @@
                 <span class="bar3"></span>
             </div>
             <ul class="nav-sub">
-                <li class="list-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="list-item"><a href="agriculture/ag.html" class="nav-link">Agriculture</a></li>
-                <li class="list-item"><a href="water/water.html" class="nav-link">Water</a></li>
-                <li class="list-item"><a href="transportation/transportation.html"nav-link">Transportation</a>
+                <li class="list-item"><a class="nav-link" href="index.html" >Home</a></li>
+                <li class="list-item"><a class="nav-link" href="agriculture/ag.html">Agriculture</a></li>
+                <li class="list-item"><a class="nav-link" href="water/water.html" >Water</a></li>
+                <li class="list-item"><a class="nav-link" href="transportation/transportation.html">Transportation</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
 
-        <div class="hero">
-            <img class="small" src="images/hero_image_sm.jpg" alt="pine forest" loading="lazy">
-            <img class="large" src="images/forest.jpg" alt="forest" loading="lazy">
+        <section class="hero">
             <div class="info">
                 <h1>What is a Carbon Footprint?</h1>
                 <p>
-                    A carbon footprint is the entire amount of greenhouse gases produced by human actions.
+                    A carbon footprint is the entire amount of greenhouse gases produced by human actions. Carbon is a driving force behind the changing climate.
                 </p>
                 <a href="#help" class="grow">How Can I Reduce My Footprint?</a>
             </div>
-        </div>
-        <div class="carbon">
-            <img src="images/panda.jpg" alt="panda" loading="lazy">
+        </section>
+        <section class="carbon">
+            <img src="images/homeimage.jpg" alt="hand holding a sapling" loading="lazy">
             <h2>How Does Carbon Affect Climate Change? </h2>
-            <br>
-            <hr>
 
             <p>Carbon dioxide absorbs heat from the sun and the Earth's surface before releasing it into
                 the atmosphere. High quantities of greenhouse gases, notably carbon dioxide, threaten to
                 raise the planet's average surface temperature to unacceptable levels and create a slew of
                 life-threatening consequences. </p>
-        </div>
+        </section>
         <h2 id="help"> How Can You Help?</h2>
         <section class="help-links">
             <div class="item1 home-item">
-                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                <div class="overlay"></div>
+                <video id="vid1" class="video" loop muted>
                     <source src="images/Glass.mp4" type="video/mp4">
                 </video>
-                <h3>Water</h3>
-                <p>How does water consumption relate to my carbon footprint?
-                </p>
-                <a href="water/water.html" class="grow">Find Out More!</a>
+                <div class="text_box">
+                    <h3>Water</h3>
+                    <p>How does water consumption relate to my carbon footprint?
+                    </p>
+                    <a href="water/water.html" class="grow">Find Out More!</a>
+                </div>
+                
             </div>
             <div class="item2 home-item">
-                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                <div class="overlay"></div>
+                <video id="vid2" class="video" loop muted>
                     <source src="images/traffic.mp4" type="video/mp4">
                 </video>
-                <h3>Transportation</h3>
-                <p>What can I do to reduce my carbon footprint through transportation?
-                </p>
-                <a href="transportation/transportation.html" class="grow">Find Out More!</a>
+                <div class="text_box">
+                    <h3>Transportation</h3>
+                    <p>What can I do to reduce my carbon footprint through transportation?
+                    </p>
+                    <a href="transportation/transportation.html" class="grow">Find Out More!</a>
+                </div>
+               
             </div>
             <div class="item3 home-item">
-                <video class="video" loop muted onmouseover="this.play()" onmouseout="this.pause();">
+                <div class="overlay"></div>
+                <video id="vid3"  class="video" loop muted>
+                    <h3>Test Text on hover</h3>
                     <source src="images/farm.mp4" type="video/mp4">
                 </video>
-                <h3>Agriculture</h3>
-                <p>How does farming impact our carbon footprint?
-                </p>
-                <a href="./agriculture/ag.html" class="grow">Find Out More!</a>
+                <div class="text_box">
+                    <h3>Agriculture</h3>
+                    <p>How does the farming in our community impact our carbon footprint?
+                    </p>
+                    <a href="./agriculture/ag.html" class="grow">Find Out More!</a>
+                </div>
             </div>
 
         </section>

@@ -182,12 +182,12 @@ body a {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-left: 0px;
-    margin-top: 25px;
+    margin-bottom: 15px;
   }
   .content .plane {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: -100px;
+    margin-top: -70px;
   }
   .content .plane-img {
     grid-column: 1/2;

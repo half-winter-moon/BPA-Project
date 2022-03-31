@@ -198,7 +198,7 @@ li:not(:first-of-type) {
     }
 
     .title-of-page {
-        max-width: 100%;
+        max-width: 600px;
         margin: 0 auto;
         border-radius: 7px 7px 0px 0px;
         height: 15%;
@@ -207,6 +207,7 @@ li:not(:first-of-type) {
         background: rgba(0, 0, 0, 0.5);
         border-bottom: 3px solid white;
         overflow-y: hidden;
+        font-size: 32px;
     }
 
     .page-intro>p {
@@ -233,7 +234,7 @@ li:not(:first-of-type) {
     }
 
     .cta-button {
-        margin-top: -30px;
+        margin-top: 20px;
         height: 30px;
     }
 

@@ -50,6 +50,8 @@ li {
 }
 
 .page-intro-text {
+    display: flex;
+    flex-direction: column;
     grid-column: 1/3;
     grid-row:1/3;
     z-index: 1;
@@ -69,11 +71,11 @@ li {
     color: white;
     border-bottom: 3px solid white;
     font-size: 1.5rem;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
 }
 .first-para {
-    height: 100px;
+    height: auto;
     padding:15px;
 }
 
@@ -98,7 +100,7 @@ li {
 }
 
 
-.cta-button {
+.page-intro-text a {
     text-decoration: none;
     background-color: #90a955;
     color: black;
@@ -221,17 +223,18 @@ li:not(:first-of-type) {
         margin-top: 125px;
         font-size: 1.3rem;
     }
-    .cta-button {
-        margin-top: 50px;
-        height: 30px;
+    .page-intro-text a {
+        margin-top: auto;
+        /* height: 30px; */
+    }
+
+    .page-intro-text .grow {
         transition: 1s ease;
     }
-    .cta-button:hover {
+    .page-intro-text .grow:hover {
         transform: scale(1.2);
         transition: 1s ease;
     }
-
-   
 
     .why-should-i-care {
         display: grid;
@@ -321,9 +324,19 @@ li:not(:first-of-type) {
     }
     .page-intro-text p {
         overflow-y: hidden;
-        padding-bottom: 100px;
+        height: auto;
+    }
+    .page-intro-text a {
+        margin-top: 0;
     }
     .page-intro img {
         height:400px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .page-intro-text {
+        /* height: 80%; */
+        width: 80%;
     }
 }

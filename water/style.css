@@ -30,7 +30,7 @@ h1 {
     font-size: 32px;
 }
 
-li {
+main li {
     font-family: 'Noto Serif', serif;
     margin-top: 10px;
     margin-left: 5px;
@@ -50,6 +50,8 @@ li {
 }
 
 .page-intro-text {
+    display: flex;
+    flex-direction: column;
     grid-column: 1/3;
     grid-row:1/3;
     z-index: 1;
@@ -69,11 +71,11 @@ li {
     color: white;
     border-bottom: 3px solid white;
     font-size: 1.5rem;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
 }
 .first-para {
-    height: 100px;
+    height: auto;
     padding:15px;
 }
 
@@ -98,7 +100,7 @@ li {
 }
 
 
-.cta-button {
+.page-intro-text a {
     text-decoration: none;
     background-color: #90a955;
     color: black;
@@ -169,7 +171,7 @@ li {
     padding-left: 30px;
 }
 
-li:not(:first-of-type) {
+main li:not(:first-of-type) {
     padding-top: 15px;
 }
 
@@ -221,17 +223,17 @@ li:not(:first-of-type) {
         margin-top: 125px;
         font-size: 1.3rem;
     }
-    .cta-button {
-        margin-top: 50px;
-        height: 30px;
+    .page-intro-text a {
+        margin-top: auto;
+    }
+
+    .page-intro-text .grow {
         transition: 1s ease;
     }
-    .cta-button:hover {
+    .page-intro-text .grow:hover {
         transform: scale(1.2);
         transition: 1s ease;
     }
-
-   
 
     .why-should-i-care {
         display: grid;
@@ -272,45 +274,54 @@ li:not(:first-of-type) {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         width: 80%;
-        max-height: 175vh;
+        height:fit-content;
         overflow-y: hidden;
     }
 
     .to-be-friendly>img {
         grid-column: 1/3;
-        grid-row: 1/4;
-
-        margin: 0 auto;
+        grid-row: 1/3;
+        height: auto;
+        width:100%;
     }
 
-    .to-be-friendly>h3 {
-        letter-spacing: 1px;
-        margin-top: 150px;
+    .action-content {
+        width: 100%;
         grid-column: 1/3;
-        grid-row: 1;
-        z-index: 5;
+        grid-row: 1/3;
+        align-self: center;
+        justify-self: center;
         background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .action-content>h3 {
+        letter-spacing: 1px;
         height: 25%;
         padding-bottom: 0%;
         font-size: 2.5rem;
         overflow-y: hidden;
-
     }
 
-    .to-be-friendly>strong {
-        grid-column: 1/3;
-        grid-row: 1;
-        margin-top: 210px;
+    .action-content>strong {
         font-size: 1.5rem;
-        background: rgba(0, 0, 0, 0.5);
         height: 25%;
     }
 
-    .actions {
-        grid-column: 1/3;
-        grid-row: 2;
+    .action-content .actions {
         margin-top: 28px;
-        background: rgba(0, 0, 0, 0.5);
+    }
+    .action-content .actions .water-list {
+        padding-left: 50px;
+    }
+    .action-content .actions .water-list li {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:875px) {
+    .to-be-friendly {
+        height: 1000px;
     }
 }
 
@@ -321,9 +332,18 @@ li:not(:first-of-type) {
     }
     .page-intro-text p {
         overflow-y: hidden;
-        padding-bottom: 100px;
+        height: auto;
+    }
+    .page-intro-text a {
+        margin-top: 0;
     }
     .page-intro img {
         height:400px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .page-intro-text {
+        width: 80%;
     }
 }
